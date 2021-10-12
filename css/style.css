@@ -2826,6 +2826,7 @@ a{
     border-radius: 10px;
     background: linear-gradient(10deg, rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.3)),url(../img/5fba58e24e24b.png);
     background-size: cover;
+    border: 1px solid #B88306;
 }
 .blogDetails-sec .single-box .txt-blogDetails{
     position: relative;
