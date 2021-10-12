@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الحساب</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        
+    <!-- ***************** Start CSS Files ******************** -->
+    <link rel="stylesheet" href="css/remixicon.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/rtl-style.css">
+    <link rel="stylesheet" href="css/rtl-media.css">
+    <!-- ***************** End CSS Files ******************** -->
+</head>
+<body>
+    <div class="loading-page">
+        <div class="loader">Loading...</div>
+    </div><!--End Loading-->
+    <div class="wrapper">
+        <header class="page-header">
+            <div class="container">
+                <div class="navbar">
+                    <a href="ar-index.html" class="logo">
+                        <img src="img/logo.png" alt="LOGO">
+                    </a>
+                    <ul class="navigation">
+                        <li class="link-item"><a href="ar-index.html" class="link">الرئيسية</a></li>
+                        <li class="link-item"><a href="#about" class="link">حول</a></li>
+                        <li class="link-item"><a href="#aboutCur" class="link">المنهاج الدراسي</a></li>
+                        <li class="link-item"><a href="#person" class="link">الفريق</a></li>
+                        <li class="link-item"><a href="ar-blog.html" class="link">المدونات</a></li>
+                        <li class="link-item"><a href="#aboutIns" class="link">المدربين</a></li>
+                        <li class="link-item"><a href="ar-course.html" class="link">الدورات</a></li>
+                        <li class="link-item"><a href="ar-product.html" class="link">المنتجات</a></li>
+                        <li class="link-item"><a href="#contact" class="link">الاتصال</a></li>
+                        <li class="link-item"><a href="account.html" class="link">En</a></li>
+                        <li class="link-item"><a href="ar-account.html" class="register">تسجيل</a></li>
+                        <li class="link-item"><a href="ar-account.html" class="login">دخول</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Start Up Button -->
+            <a href="#" class="btn up-btn">
+                <span class="ri-arrow-up-line"></span>
+            </a>
+        </header> <!-- End Page Header -->
+        <main class="page-main">
+            <section class="account_section">
+                <div class="container">
+                    <div class="content-reg">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a href="#login" class="nav-link active" data-toggle="tab">دخول</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#register" class="nav-link" data-toggle="tab">تسجيل</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade active show" id="login">
+                               <form class="form-login form-checkout">
+                                    <div class="form-group">
+                                        <label> البريد الإلكتروني :</label>
+                                        <input type="text" placeholder="Shimaa zakarya@gmail.com" class="form-control num-site" value="" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label> كلمة المرور :</label>
+                                        <input type="password" placeholder="……………………………..." name="password" class="form-control num-site" value="" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn-site" type="submit">دخول</button>
+                                        <a href="ar-forgot-password.html" class="forgot-password">نسيت كلمة السر ؟</a>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="register">
+                               <form class="form-login form-checkout register_form">
+                                    <input type="hidden" name="_token">  
+                                    <div class="form-group">
+                                        <label> الإسم بالكامل :</label>
+                                        <input type="text" placeholder="شيماء زكريا" class="form-control num-site" value="" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label> البريد الإلكتروني :</label>
+                                        <input type="text" placeholder="Shimaa zakarya@gmail.com" class="form-control num-site" value="" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label> الهاتف :</label>
+                                        <div class="menu">
+                                            <select class="form-control num-site  reg_code">
+                                                <option value="973">+973</option>
+                                                <option value="965">965</option>
+                                                <option value="966">966</option>
+                                                <option value="20">20</option>
+                                                <option value="967">967</option>
+                                                <option value="967">964</option>
+                                                <option value="974">974</option>
+                                                <option value="968">968</option>
+                                                <option value="971">971</option>
+                                                <option value="961">961</option>
+                                            </select>
+                                            <input type="number" placeholder="00000000000000" min="0" class="form-control num-site reg_mobile" value="" required="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label> كلمة المرور :</label>
+                                        <input type="password" placeholder="……………………………..." id="password" class="form-control num-site" value="" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn-site" type="submit">تسجيل</button>
+                                        <div class="check">
+                                            <input type="checkbox" class="checkbox"> 
+                                            <label class="cbx">
+                                                <p>أنت توافق على <a href="#">شروط الإستخدام و </a><a href="#">سياسة الخصوصية</a></p>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!--End Account Page-->
+        </main><!--End Page Main-->
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="single-clm">
+                            <div class="clm-links">
+                                <ul class="links-list">
+                                    <li class="item"><a href="ar-index.html" class="link">الرئيسية</a></li>
+                                    <li class="item"><a href="#about" class="link">حول</a></li>
+                                    <li class="item"><a href="#aboutCur" class="link">المنهاج الدراسي</a></li>
+                                    <li class="item"><a href="#person" class="link">الفريق</a></li>
+                                    <a href="ar-index.html" class="logo">
+                                        <img src="img/logo.png" alt="LOGO">
+                                    </a>
+                                    <li class="item"><a href="ar-blog.html" class="link">المدونات</a></li>
+                                    <li class="item"><a href="#aboutIns" class="link">المدربين</a></li>
+                                    <li class="item"><a href="ar-course.html" class="link">الدورات</a></li>
+                                    <li class="item"><a href="ar-product.html" class="link">المنتجات</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="single-copy">
+                            <div class="clm-links">
+                                <div class="social-links">
+                                    <a href="#" class="link"><span class="ri-facebook-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-twitter-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-instagram-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-google-fill icon"></span></a>
+                                </div>
+                            </div>
+                            <div class="copy-right">
+                                <p class="title">غنى &copy; 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer><!--End Page Footer-->
+    </div>
+    <!-- ***************** Start Js Files ******************** -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-numerator.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <!-- ***************** End Js Files ******************** -->
+</body>
+</html>

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة المنتج</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        
+    <!-- ***************** Start CSS Files ******************** -->
+    <link rel="stylesheet" href="css/remixicon.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.nice-number.css">
+    <link rel="stylesheet" href="css/rtl-style.css">
+    <link rel="stylesheet" href="css/rtl-media.css">
+    <!-- ***************** End CSS Files ******************** -->
+</head>
+<body>
+    <div class="loading-page">
+        <div class="loader">Loading...</div>
+    </div><!--End Loading-->
+    <div class="wrapper">
+        <header class="page-header">
+            <div class="container">
+                <div class="navbar">
+                    <a href="ar-index.html" class="logo">
+                        <img src="img/logo.png" alt="LOGO">
+                    </a>
+                    <button class="btn menu">
+                        <span class="ri-menu-line open"></span>
+                        <span class="ri-close-line close"></span>
+                    </button>
+                    <ul class="navigation">
+                        <li class="link-item"><a href="ar-index.html" class="link">الرئيسية</a></li>
+                        <li class="link-item"><a href="#about" class="link">حول</a></li>
+                        <li class="link-item"><a href="#aboutCur" class="link">المنهاج الدراسي</a></li>
+                        <li class="link-item"><a href="#person" class="link">الفريق</a></li>
+                        <li class="link-item"><a href="ar-blog.html" class="link">المدونات</a></li>
+                        <li class="link-item"><a href="#aboutIns" class="link">المدربين</a></li>
+                        <li class="link-item"><a href="ar-course.html" class="link">الدورات</a></li>
+                        <li class="link-item"><a href="ar-product.html" class="link active">المنتجات</a></li>
+                        <li class="link-item"><a href="#contact" class="link">الاتصال</a></li>
+                        <li class="link-item"><a href="product.html" class="link">En</a></li>
+                    </ul>
+                    <div class="sec-user">
+                        <div class="user-img">
+                            <a href="ar-settings.html"><img src="img/super-admin.png" alt="user-img"></a>
+                        </div>
+                        <hr class="head-line">
+                        <div class="icon-cart">
+                            <a href="#" class="ri-shopping-cart-2-fill"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="sidebar">
+                <div class="top-side">
+                    <h3 class="brand pr-3">
+                        <a href="ar-index.html" class="logo">
+                            <img src="img/logo.png" alt="LOGO">
+                        </a>
+                    </h3> <!-- Website Brand -->
+                    <button class="btn close-btn oc-toggle">
+                        <span class="ri-close-line icon"></span>
+                    </button> <!-- Close side button -->
+                </div> <!-- End Top Side -->
+                <div class="bottom-side">
+                    <div class="content">
+                        <h2 class="title">عربة التسوق</h2>
+                    </div>
+                    <div class="sec-product">
+                        <div class="cart-pro cart_pro">
+                            <div class="pro-img">
+                                <img src="img/pro-1.png" alt="pro-img">
+                            </div>
+                            <div class="desc-pro">
+                                <h2 class="name">محركات أقراص فلاش</h2>
+                                <h2 class="name">| ليكسات</h2>
+                                <h2 class="price">$20.00</h2>
+                            </div>
+                            <div class="dlt-pro">
+                                <div class="count-pro">
+                                    <input type="number" min="1" value="1">
+                                </div>
+                            </div>
+                            <button class="btn close-pro">
+                                <span class="ri-close-line icon"></span>
+                            </button> <!-- Close side button -->
+                        </div>
+                        <div class="cart-pro">
+                            <div class="pro-img">
+                                <img src="img/pro-2.png" alt="pro-img">
+                            </div>
+                            <div class="desc-pro">
+                                <h2 class="name">محركات أقراص فلاش</h2>
+                                <h2 class="name">| ليكسات</h2>
+                                <h2 class="price">$70.00</h2>
+                            </div>
+                            <div class="dlt-pro">
+                                <div class="count-pro">
+                                    <input type="number" min="1" value="1">
+                                </div>
+                            </div>
+                            <button class="btn close-pro">
+                                <span class="ri-close-line icon"></span>
+                            </button> <!-- Close side button -->
+                        </div>
+                        <div class="cart-pro">
+                            <div class="pro-img">
+                                <img src="img/usb-u202-banner-01-sp.png" alt="pro-img">
+                            </div>
+                            <div class="desc-pro">
+                                <h2 class="name">محركات أقراص فلاش</h2>
+                                <h2 class="name">| ليكسات</h2>
+                                <h2 class="price">$90.00</h2>
+                            </div>
+                            <div class="dlt-pro">
+                                <div class="count-pro">
+                                    <input type="number" min="1" value="1">
+                                </div>
+                            </div>
+                            <button class="btn close-pro">
+                                <span class="ri-close-line icon"></span>
+                            </button> <!-- Close side button -->
+                        </div>
+                        <div class="sec-check">
+                            <div class="desc-price">
+                                <h3 class="name">المجموع :</h3>
+                                <h2 class="price">$100.00</h2>
+                            </div>
+                            <div class="btn-pro">
+                                <a href="ar-checkout.html" class="btn-price">الدفع</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Bottom Side -->
+            </aside> <!-- End Sidebar -->
+            <div class="overlay"></div> <!-- Overlay Div -->
+            <!-- Start Up Button -->
+            <a href="#" class="btn up-btn">
+                <span class="ri-arrow-up-line"></span>
+            </a>
+        </header> <!-- End Page Header -->
+        <main class="page-main">
+            <section class="search-sec" id="saerch">
+                <div class="container">
+                    <div class="saerch-boxes">
+                        <div class="row">
+                            <div class="single-saerch">
+                                <div class="sec-title">
+                                    <h3 class="title">البحث عن المنتجات</h3>
+                                </div>
+                                <div class="sec-message">
+                                    <input type="text" class="input-msg" placeholder="بحث">
+                                   <a href="#"><span class="ri-arrow-left-line icon-search"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End Connnect Section --> 
+
+            <section class="product-sec" id="product">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="course-box">
+                                <div class="single-box">
+                                    <div class="content">
+                                        <div class="course-img">
+                                            <img src="img/79267907_7310031085.png" width="90" height="200" alt="pro-img">
+                                        </div>
+                                    </div>
+                                    <div class="sec-none">
+                                        <div class="count-pro">
+                                            <input type="number" min="1" value="1">
+                                        </div>
+                                        <div class="sub-pro">
+                                            <a href="#" class="btn-sub">أضف إلى السلة</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name-per">
+                                    <div class="price">30.00 $</div>
+                                    <div class="title">خطوة الاستثمار في الأسهم</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="course-box">
+                                <div class="single-box">
+                                    <div class="content">
+                                        <div class="course-img">
+                                            <img src="img/usb-u202-banner-01-sp.png" width="90" height="200" alt="pro-img">
+                                        </div>
+                                    </div>
+                                    <div class="sec-none">
+                                        <div class="count-pro">
+                                            <input type="number" min="1" value="1">
+                                        </div>
+                                        <div class="sub-pro">
+                                            <a href="#" class="btn-sub">أضف إلى السلة</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name-per">
+                                    <div class="price">20.00 $</div>
+                                    <div class="title">خطوة الاستثمار في الأسهم</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="course-box">
+                                <div class="single-box">
+                                    <div class="content">
+                                        <div class="course-img">
+                                            <img src="img/ilxlrw400ds.png" width="130" height="100" alt="pro-img">
+                                        </div>
+                                    </div>
+                                    <div class="sec-none">
+                                        <div class="count-pro">
+                                            <input type="number" min="1" value="1">
+                                        </div>
+                                        <div class="sub-pro">
+                                            <a href="#" class="btn-sub">أضف إلى السلة</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name-per">
+                                    <div class="price">100.00 $</div>
+                                    <div class="title">خطوة الاستثمار في الأسهم</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="course-box">
+                                <div class="single-box">
+                                    <div class="content">
+                                        <div class="course-img">
+                                            <img src="img/ae793f64-f2bb-4f84-a727-1fc0f28f11cc.png" width="90" height="200" alt="pro-img">
+                                        </div>
+                                    </div>
+                                    <div class="sec-none">
+                                        <div class="count-pro">
+                                            <input type="number" min="1" value="1">
+                                        </div>
+                                        <div class="sub-pro">
+                                            <a href="#" class="btn-sub">أضف إلى السلة</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name-per">
+                                    <div class="price">130.00 $</div>
+                                    <div class="title">خطوة الاستثمار في الأسهم</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="course-box">
+                                <div class="single-box">
+                                    <div class="content">
+                                        <div class="course-img">
+                                            <img src="img/79267907_7310031085.png" width="90" height="200" alt="pro-img">
+                                        </div>
+                                    </div>
+                                    <div class="sec-none">
+                                        <div class="count-pro">
+                                            <input type="number" min="1" value="1">
+                                        </div>
+                                        <div class="sub-pro">
+                                            <a href="#" class="btn-sub">أضف إلى السلة</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name-per">
+                                    <div class="price">30.00 $</div>
+                                    <div class="title">خطوة الاستثمار في الأسهم</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="course-box">
+                                <div class="single-box">
+                                    <div class="content">
+                                        <div class="course-img">
+                                            <img src="img/usb-u202-banner-01-sp.png" width="90" height="200" alt="pro-img">
+                                        </div>
+                                    </div>
+                                    <div class="sec-none">
+                                        <div class="count-pro">
+                                            <input type="number" min="1" value="1">
+                                        </div>
+                                        <div class="sub-pro">
+                                            <a href="#" class="btn-sub">أضف إلى السلة</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name-per">
+                                    <div class="price">20.00 $</div>
+                                    <div class="title">خطوة الاستثمار في الأسهم</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="course-box">
+                                <div class="single-box">
+                                    <div class="content">
+                                        <div class="course-img">
+                                            <img src="img/ilxlrw400ds.png" width="130" height="100" alt="pro-img">
+                                        </div>
+                                    </div>
+                                    <div class="sec-none">
+                                        <div class="count-pro">
+                                            <input type="number" min="1" value="1">
+                                        </div>
+                                        <div class="sub-pro">
+                                            <a href="#" class="btn-sub">أضف إلى السلة</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name-per">
+                                    <div class="price">100.00 $</div>
+                                    <div class="title">خطوة الاستثمار في الأسهم</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="course-box">
+                                <div class="single-box">
+                                    <div class="content">
+                                        <div class="course-img">
+                                            <img src="img/ae793f64-f2bb-4f84-a727-1fc0f28f11cc.png" width="90" height="200" alt="pro-img">
+                                        </div>
+                                    </div>
+                                    <div class="sec-none">
+                                        <div class="count-pro">
+                                            <input type="number" min="1" value="1">
+                                        </div>
+                                        <div class="sub-pro">
+                                            <a href="#" class="btn-sub">أضف إلى السلة</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name-per">
+                                    <div class="price">130.00 $</div>
+                                    <div class="title">خطوة الاستثمار في الأسهم</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="course-box">
+                                <div class="single-box">
+                                    <div class="content">
+                                        <div class="course-img">
+                                            <img src="img/79267907_7310031085.png" width="90" height="200" alt="pro-img">
+                                        </div>
+                                    </div>
+                                    <div class="sec-none">
+                                        <div class="count-pro">
+                                            <input type="number" min="1" value="1">
+                                        </div>
+                                        <div class="sub-pro">
+                                            <a href="#" class="btn-sub">أضف إلى السلة</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name-per">
+                                    <div class="price">30.00 $</div>
+                                    <div class="title">خطوة الاستثمار في الأسهم</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="course-box">
+                                <div class="single-box">
+                                    <div class="content">
+                                        <div class="course-img">
+                                            <img src="img/usb-u202-banner-01-sp.png" width="90" height="200" alt="pro-img">
+                                        </div>
+                                    </div>
+                                    <div class="sec-none">
+                                        <div class="count-pro">
+                                            <input type="number" min="1" value="1">
+                                        </div>
+                                        <div class="sub-pro">
+                                            <a href="#" class="btn-sub">أضف إلى السلة</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name-per">
+                                    <div class="price">20.00 $</div>
+                                    <div class="title">خطوة الاستثمار في الأسهم</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="course-box">
+                                <div class="single-box">
+                                    <div class="content">
+                                        <div class="course-img">
+                                            <img src="img/ilxlrw400ds.png" width="130" height="100" alt="pro-img">
+                                        </div>
+                                    </div>
+                                    <div class="sec-none">
+                                        <div class="count-pro">
+                                            <input type="number" min="1" value="1">
+                                        </div>
+                                        <div class="sub-pro">
+                                            <a href="#" class="btn-sub">أضف إلى السلة</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name-per">
+                                    <div class="price">100.00 $</div>
+                                    <div class="title">خطوة الاستثمار في الأسهم</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="course-box">
+                                <div class="single-box">
+                                    <div class="content">
+                                        <div class="course-img">
+                                            <img src="img/ae793f64-f2bb-4f84-a727-1fc0f28f11cc.png" width="90" height="200" alt="pro-img">
+                                        </div>
+                                    </div>
+                                    <div class="sec-none">
+                                        <div class="count-pro">
+                                            <input type="number" min="1" value="1">
+                                        </div>
+                                        <div class="sub-pro">
+                                            <a href="#" class="btn-sub">أضف إلى السلة</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name-per">
+                                    <div class="price">130.00 $</div>
+                                    <div class="title">خطوة الاستثمار في الأسهم</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center text-center py-5">
+                        <div class="col-12">
+                            <a href="#" class="btn-more">أكثر</a>
+                        </div>
+                    </div>
+                </div>
+            </section><!--End Course Section-->
+        </main><!--End Page Main-->
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="single-clm">
+                            <div class="clm-links">
+                                <ul class="links-list">
+                                    <li class="item"><a href="ar-index.html" class="link">الرئيسية</a></li>
+                                    <li class="item"><a href="#about" class="link">حول</a></li>
+                                    <li class="item"><a href="#aboutCur" class="link">المنهاج الدراسي</a></li>
+                                    <li class="item"><a href="#person" class="link">الفريق</a></li>
+                                    <a href="ar-index.html" class="logo">
+                                        <img src="img/logo.png" alt="LOGO">
+                                    </a>
+                                    <li class="item"><a href="ar-blog.html" class="link">المدونات</a></li>
+                                    <li class="item"><a href="#aboutIns" class="link">المدربين</a></li>
+                                    <li class="item"><a href="ar-course.html" class="link">الدورات</a></li>
+                                    <li class="item"><a href="ar-product.html" class="link active">المنتجات</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="single-copy">
+                            <div class="clm-links">
+                                <div class="social-links">
+                                    <a href="#" class="link"><span class="ri-facebook-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-twitter-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-instagram-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-google-fill icon"></span></a>
+                                </div>
+                            </div>
+                            <div class="copy-right">
+                                <p class="title">غنى &copy; 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer><!--End Page Footer-->
+    </div>
+    <!-- ***************** Start Js Files ******************** -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-numerator.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.nice-number.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sub-main.js"></script>
+    <!-- ***************** End Js Files ******************** -->
+</body>
+</html>

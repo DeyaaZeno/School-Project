@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة تفاصيل الدورة</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        
+    <!-- ***************** Start CSS Files ******************** -->
+    <link rel="stylesheet" href="css/remixicon.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.nice-number.css">
+    <link rel="stylesheet" href="css/rtl-style.css">
+    <link rel="stylesheet" href="css/rtl-media.css">
+    <!-- ***************** End CSS Files ******************** -->
+</head>
+<body>
+    <div class="loading-page">
+        <div class="loader">Loading...</div>
+    </div><!--End Loading-->
+    <div class="wrapper">
+        <header class="page-header">
+            <div class="container">
+                <div class="navbar">
+                    <a href="ar-index.html" class="logo">
+                        <img src="img/logo.png" alt="LOGO">
+                    </a>
+                    <button class="btn menu">
+                        <span class="ri-menu-line open"></span>
+                        <span class="ri-close-line close"></span>
+                    </button>
+                    <ul class="navigation">
+                        <li class="link-item"><a href="ar-index.html" class="link">الرئيسية</a></li>
+                        <li class="link-item"><a href="#about" class="link">حول</a></li>
+                        <li class="link-item"><a href="#aboutCur" class="link">المنهاج الدراسي</a></li>
+                        <li class="link-item"><a href="#person" class="link">الفريق</a></li>
+                        <li class="link-item"><a href="ar-blog.html" class="link">المدونات</a></li>
+                        <li class="link-item"><a href="#aboutIns" class="link">المدربين</a></li>
+                        <li class="link-item"><a href="ar-course.html" class="link active">الدورات</a></li>
+                        <li class="link-item"><a href="ar-product.html" class="link">المنتجات</a></li>
+                        <li class="link-item"><a href="#contact" class="link">الاتصال</a></li>
+                        <li class="link-item"><a href="course-details.html" class="link">En</a></li>
+                    </ul>
+                    <div class="sec-user">
+                        <div class="user-img">
+                            <a href="ar-settings.html"><img src="img/super-admin.png" alt="user-img"></a>
+                        </div>
+                        <hr class="head-line">
+                        <div class="icon-cart">
+                            <a href="#" class="ri-shopping-cart-2-fill"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="sidebar">
+                <div class="top-side">
+                    <h3 class="brand pr-3">
+                        <a href="ar-index.html" class="logo">
+                            <img src="img/logo.png" alt="LOGO">
+                        </a>
+                    </h3> <!-- Website Brand -->
+                    <button class="btn close-btn oc-toggle">
+                        <span class="ri-close-line icon"></span>
+                    </button> <!-- Close side button -->
+                </div> <!-- End Top Side -->
+                <div class="bottom-side">
+                    <div class="content">
+                        <h2 class="title">عربة التسوق</h2>
+                    </div>
+                    <div class="sec-product">
+                        <div class="cart-pro cart_pro">
+                            <div class="pro-img">
+                                <img src="img/pro-1.png" alt="pro-img">
+                            </div>
+                            <div class="desc-pro">
+                                <h2 class="name">محركات أقراص فلاش</h2>
+                                <h2 class="name">| ليكسات</h2>
+                                <h2 class="price">$20.00</h2>
+                            </div>
+                            <div class="dlt-pro">
+                                <div class="count-pro">
+                                    <input type="number" min="1" value="1">
+                                </div>
+                            </div>
+                            <button class="btn close-pro">
+                                <span class="ri-close-line icon"></span>
+                            </button> <!-- Close side button -->
+                        </div>
+                        <div class="cart-pro">
+                            <div class="pro-img">
+                                <img src="img/pro-2.png" alt="pro-img">
+                            </div>
+                            <div class="desc-pro">
+                                <h2 class="name">محركات أقراص فلاش</h2>
+                                <h2 class="name">| ليكسات</h2>
+                                <h2 class="price">$70.00</h2>
+                            </div>
+                            <div class="dlt-pro">
+                                <div class="count-pro">
+                                    <input type="number" min="1" value="1">
+                                </div>
+                            </div>
+                            <button class="btn close-pro">
+                                <span class="ri-close-line icon"></span>
+                            </button> <!-- Close side button -->
+                        </div>
+                        <div class="cart-pro">
+                            <div class="pro-img">
+                                <img src="img/usb-u202-banner-01-sp.png" alt="pro-img">
+                            </div>
+                            <div class="desc-pro">
+                                <h2 class="name">محركات أقراص فلاش</h2>
+                                <h2 class="name">| ليكسات</h2>
+                                <h2 class="price">$90.00</h2>
+                            </div>
+                            <div class="dlt-pro">
+                                <div class="count-pro">
+                                    <input type="number" min="1" value="1">
+                                </div>
+                            </div>
+                            <button class="btn close-pro">
+                                <span class="ri-close-line icon"></span>
+                            </button> <!-- Close side button -->
+                        </div>
+                        <div class="sec-check">
+                            <div class="desc-price">
+                                <h3 class="name">المجموع :</h3>
+                                <h2 class="price">$100.00</h2>
+                            </div>
+                            <div class="btn-pro">
+                                <a href="ar-checkout.html" class="btn-price">الدفع</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Bottom Side -->
+            </aside> <!-- End Sidebar -->
+            <div class="overlay"></div> <!-- Overlay Div -->
+            <!-- Start Up Button -->
+            <a href="#" class="btn up-btn">
+                <span class="ri-arrow-up-line"></span>
+            </a>
+        </header> <!-- End Page Header -->
+        <main class="page-main">
+            <!-- Connnect Section -->
+            <section class="empty-sec" id="empty">
+            </section><!-- End Connnect Section --> 
+
+            <!-- Course Details Section -->
+            <section class="course-det" id="course">
+                <div class="content">
+                    <h2 class="title">أفضل موقع ويب لبيع الدورات</h2>
+                    <p class="para">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي قارئ  انتباهه عند النظر إلى شكله باللغة الإنجليزية.</p>
+                    <p class="price-det">20.00 $</p>
+                </div>
+            </section><!-- End Course Details Section -->
+
+            <!-- Course Axes Section -->
+            <section class="course-axes">
+                <div class="container">
+                    <div class="content">
+                        <div class="title">محاور الدورة :</div>
+                    </div>
+                    <div class="row">
+                        <div class="axes-parg">
+                            <ul>
+                                <li>
+                                    <p>قم بإحضار زوار جدد إلى الموقع ، فعندما يتم أرشفة الموقع بطريقة صحيحة وسليمة ، فإنهم يستهدفون العميل مباشرة من خلال الكلمات الدلالية الدلالية التي يستخدمها الزوار لأرشفة المواقع المفيدة للمدونين الذين يسترجعون كتاباتهم.</p>
+                                </li>
+                                <li>
+                                    <p>قم بإحضار زوار جدد إلى الموقع ، فعندما يتم أرشفة الموقع بطريقة صحيحة وسليمة ، فإنهم يستهدفون العميل مباشرة من خلال الكلمات الدلالية الدلالية التي يستخدمها الزوار لأرشفة المواقع المفيدة للمدونين الذين يسترجعون كتاباتهم.</p>
+                                </li>
+                                <li>
+                                    <p>قم بإحضار زوار جدد إلى الموقع ، فعندما يتم أرشفة الموقع بطريقة صحيحة وسليمة ، فإنهم يستهدفون العميل مباشرة من خلال الكلمات الدلالية الدلالية التي يستخدمها الزوار لأرشفة المواقع المفيدة للمدونين الذين يسترجعون كتاباتهم.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content pt-3">
+                        <div class="title">نتائج الدورة :</div>
+                    </div>
+                    <div class="row">
+                        <div class="axes-parg">
+                            <ul>
+                                <li>
+                                    <p>قم بإحضار زوار جدد إلى الموقع ، فعندما يتم أرشفة الموقع بطريقة صحيحة وسليمة ، فإنهم يستهدفون العميل مباشرة من خلال الكلمات الدلالية الدلالية التي يستخدمها الزوار لأرشفة المواقع المفيدة للمدونين الذين يسترجعون كتاباتهم.</p>
+                                </li>
+                                <li>
+                                    <p>قم بإحضار زوار جدد إلى الموقع ، فعندما يتم أرشفة الموقع بطريقة صحيحة وسليمة ، فإنهم يستهدفون العميل مباشرة من خلال الكلمات الدلالية الدلالية التي يستخدمها الزوار لأرشفة المواقع المفيدة للمدونين الذين يسترجعون كتاباتهم.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="less-content">
+                        <div class="less-title">محتوى الدورة</div>
+                    </div>
+                    <aside class="sidecour">
+                        <div class="bottom-side">
+                            <ul class="side-list">
+                                <li class="item">
+                                    <a href="#" class="item-link dropdown-list">
+                                        <span class="ri-layout-masonry-line icon"></span>
+                                        <span class="link-name">الدرس الأول :</span>
+                                        <span class="ri-arrow-down-s-line dr-icon"></span>
+                                    </a>
+                                    <ul class="n-list">
+                                        <li class="n-item">
+                                            <div class="music">
+                                                <img src="img/play-button1.png" alt="mercy-music">
+                                                <div class="info">
+                                                    <div class="less-info">
+                                                        <p>الدرس 1 : تعريف القيادة</p>
+                                                        <p class="less-parg">7 : 30 m <span class="px-2">مكتمل</span><span class="ri-check-line icon-check"></spn></p>
+                                                    </div>
+                                                    <div id="waveform"></div>
+                                                    <div class="controls">
+                                                        <img src="img/play.png" alt="play-music" id="playBtn">
+                                                        <img src="img/stop.png" alt="play-music" id="stopBtn">
+                                                        <img src="img/volume.png" alt="play-music" id="volumeBtn">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li> <!-- Single Item -->
+                                        <li class="n-item">
+                                            <div class="music">
+                                                <img src="img/play-button1.png" alt="mercy-music">
+                                                <div class="info">
+                                                    <div class="less-info">
+                                                        <p>الدرس 2 : تعريف القيادة</p>
+                                                        <p class="less-parg">7 : 30 m <span class="px-2">مكتمل</span><span class="ri-check-line icon-check"></spn></p>
+                                                    </div>
+                                                    <div id="waveformSecond"></div>
+                                                    <div class="controls">
+                                                        <img src="img/play.png" alt="play-music" id="playBtn2">
+                                                        <img src="img/stop.png" alt="play-music" id="stopBtn2">
+                                                        <img src="img/volume.png" alt="play-music" id="volumeBtn2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li> <!-- Single Item -->
+                                        <li class="n-item">
+                                            <div class="music">
+                                                <img src="img/play-button1.png" alt="mercy-music">
+                                                <div class="info">
+                                                    <div class="less-info">
+                                                        <p>الدرس 3 : تعريف القيادة</p>
+                                                        <p class="less-parg">7 : 30 m <span class="px-2">مكتمل</span><span class="ri-check-line icon-check"></spn></p>
+                                                    </div>
+                                                    <div id="waveformThird"></div>
+                                                    <div class="controls">
+                                                        <img src="img/play.png" alt="play-music" id="playBtn3">
+                                                        <img src="img/stop.png" alt="play-music" id="stopBtn3">
+                                                        <img src="img/volume.png" alt="play-music" id="volumeBtn3">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li> <!-- Single Item -->
+                                    </ul> <!-- End Nisted List -->
+                                </li> <!-- Single Item -->
+                                <li class="item">
+                                    <a href="#" class="item-link dropdown-list">
+                                        <span class="ri-layout-masonry-line icon"></span>
+                                        <span class="link-name">الدرس الثاني :</span>
+                                        <span class="ri-arrow-down-s-line dr-icon"></span>
+                                    </a>
+                                    <ul class="n-list">
+                                        <li class="n-item">
+                                            <div class="music">
+                                                <img src="img/play-button1.png" alt="mercy-music">
+                                                <div class="info">
+                                                    <div class="less-info">
+                                                        <p>الدرس 4 : تعريف القيادة</p>
+                                                        <p class="less-parg">7 : 30 m <span class="px-2">مكتمل</span><span class="ri-check-line icon-check"></spn></p>
+                                                    </div>
+                                                    <div id="waveformFour"></div>
+                                                    <div class="controls">
+                                                        <img src="img/play.png" alt="play-music" id="playBtn4">
+                                                        <img src="img/stop.png" alt="play-music" id="stopBtn4">
+                                                        <img src="img/volume.png" alt="play-music" id="volumeBtn4">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li> <!-- Single Item -->
+                                    </ul> <!-- End Nisted List -->
+                                </li> <!-- Single Item -->
+                                <li class="item">
+                                    <a href="#" class="item-link dropdown-list">
+                                        <span class="ri-layout-masonry-line icon"></span>
+                                        <span class="link-name">الدرس الثالث :</span>
+                                        <span class="ri-arrow-down-s-line dr-icon"></span>
+                                    </a>
+                                    <ul class="n-list">
+                                        <li class="n-item">
+                                            <div class="music">
+                                                <img src="img/play-button1.png" alt="mercy-music">
+                                                <div class="info">
+                                                    <div class="less-info">
+                                                        <p>الدرس 5 : تعريف القيادة</p>
+                                                        <p class="less-parg">7 : 30 m <span class="px-2">مكتمل</span><span class="ri-check-line icon-check"></spn></p>
+                                                    </div>
+                                                    <div id="waveformFive"></div>
+                                                    <div class="controls">
+                                                        <img src="img/play.png" alt="play-music" id="playBtn5">
+                                                        <img src="img/stop.png" alt="play-music" id="stopBtn5">
+                                                        <img src="img/volume.png" alt="play-music" id="volumeBtn5">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li> <!-- Single Item -->
+                                    </ul> <!-- End Nisted List -->
+                                </li> <!-- Single Item -->
+                                <li class="item">
+                                    <a href="#" class="item-link dropdown-list">
+                                        <span class="ri-layout-masonry-line icon"></span>
+                                        <span class="link-name">الدرس الرابع :</span>
+                                        <span class="ri-arrow-down-s-line dr-icon"></span>
+                                    </a>
+                                    <ul class="n-list">
+                                        <li class="n-item">
+                                            <div class="music">
+                                                <img src="img/play-button1.png" alt="mercy-music">
+                                                <div class="info">
+                                                    <div class="less-info">
+                                                        <p>الدرس 6 : تعريف القيادة</p>
+                                                        <p class="less-parg">7 : 30 m <span class="px-2">مكتمل</span><span class="ri-check-line icon-check"></spn></p>
+                                                    </div>
+                                                    <div id="waveformSex"></div>
+                                                    <div class="controls">
+                                                        <img src="img/play.png" alt="play-music" id="playBtn6">
+                                                        <img src="img/stop.png" alt="play-music" id="stopBtn6">
+                                                        <img src="img/volume.png" alt="play-music" id="volumeBtn6">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li> <!-- Single Item -->
+                                    </ul> <!-- End Nisted List -->
+                                </li> <!-- Single Item -->
+                                <li class="item">
+                                    <a href="#" class="item-link dropdown-list">
+                                        <span class="ri-layout-masonry-line icon"></span>
+                                        <span class="link-name">الدرس الخامس :</span>
+                                        <span class="ri-arrow-down-s-line dr-icon"></span>
+                                    </a>
+                                    <ul class="n-list">
+                                        <li class="n-item">
+                                            <div class="music">
+                                                <img src="img/play-button1.png" alt="mercy-music">
+                                                <div class="info">
+                                                    <div class="less-info">
+                                                        <p>الدرس 7 : تعريف القيادة</p>
+                                                        <p class="less-parg">7 : 30 m <span class="px-2">مكتمل</span><span class="ri-check-line icon-check"></spn></p>
+                                                    </div>
+                                                    <div id="waveformSeven"></div>
+                                                    <div class="controls">
+                                                        <img src="img/play.png" alt="play-music" id="playBtn7">
+                                                        <img src="img/stop.png" alt="play-music" id="stopBtn7">
+                                                        <img src="img/volume.png" alt="play-music" id="volumeBtn7">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li> <!-- Single Item -->
+                                    </ul> <!-- End Nisted List -->
+                                </li> <!-- Single Item -->
+                            </ul> <!-- End Side List -->
+                        </div> <!-- End Bottom Side -->
+                    </aside> <!-- End Sidebar -->
+                    <div class="less-content">
+                        <div class="less-title">المرفقات</div>
+                    </div>
+                    <div class="file-down">
+                        <div class="file-info">
+                            <img src="img/documents.png" alt="Component">
+                            <a href="files/test.pdf" download="test.pdf">حلول البرمجيات.Pdf</a>
+                        </div>
+                        <div class="btn-down">
+                            <a href="#" class="b-down" download="test.pdf">تحميل</a>
+                            <a href="#" class="ri-download-2-line icon-down" download="test.pdf"></a>
+                        </div>
+                    </div>
+                    <div class="file-down">
+                        <div class="file-info">
+                            <img src="img/documents-2.png" alt="Component">
+                            <a href="files/test.docx" download="test.docx">حلول البرمجيات.docx</a>
+                        </div>
+                        <div class="btn-down">
+                            <a href="#" class="b-down" download="test.pdf">تحميل</a>
+                            <a href="#" class="ri-download-2-line icon-down" download="test.docx"></a>
+                        </div>
+                    </div>
+                    <div class="file-down">
+                        <div class="file-info">
+                            <img src="img/documents-1.png" alt="Component">
+                            <a href="files/test.pptx" download="test.pptx">حلول البرمجيات.pptx</a>
+                        </div>
+                        <div class="btn-down">
+                            <a href="#" class="b-down" download="test.pdf">تحميل</a>
+                            <a href="#" class="ri-download-2-line icon-down" download="test.pptx"></a>
+                        </div>
+                    </div>
+                    <div class="less-content mt-5">
+                        <div class="less-title">مقدم الدورة</div>
+                    </div>
+                    <div class="course-admin">
+                        <div class="img-admin">
+                            <img src="img/course-img.png" alt="course-img">
+                        </div>
+                        <div class="info-admin">
+                            <h3 class="name">أحمد الصعيدي</h3>
+                            <p class="job-title">مدير مدونة</p>
+                        </div>
+                    </div>
+                    <div class="less-content mt-3">
+                        <div class="less-title">تعليق</div>
+                    </div>
+                    <div class="comment-sec">
+                        <div class="comment-info">
+                            <h3 class="name">علي عمر</h3>
+                            <p class="date">1 / 2 / 2020</p>
+                        </div>
+                        <div class="comment-desc">
+                            <p>جلب زوار جدد إلى الموقع ، عندما يتم أرشفة الموقع بطريقة صحيحة وسليمة ، فإنهم يستهدفون الزبون مباشرة من خلال الكلمات الدلالية الدلالية التي يقوم الزوار بأرشفة المواقع المفيدة للمدونين الذين يعيدون  كتاباتهم.</p>
+                        </div>
+                    </div>
+                    <div class="comment-sec">
+                        <div class="comment-info">
+                            <h3 class="name">علي عمر</h3>
+                            <p class="date">1 / 2 / 2020</p>
+                        </div>
+                        <div class="comment-desc">
+                            <p>جلب زوار جدد إلى الموقع ، عندما يتم أرشفة الموقع بطريقة صحيحة وسليمة ، فإنهم يستهدفون الزبون مباشرة من خلال الكلمات الدلالية الدلالية التي يقوم الزوار بأرشفة المواقع المفيدة للمدونين الذين يعيدون  كتاباتهم.</p>
+                        </div>
+                        <div class="replay">
+                            <img src="img/curve-arrow-left.png" alt="curve-arrow" width="30" height="30">
+                            <p>جلب زوار جدد إلى الموقع ، عندما يتم أرشفة الموقع بطريقة صحيحة وسليمة ، فإنهم يستهدفون الزبون مباشرة من خلال الكلمات الدلالية الدلالية التي يقوم الزوار بأرشفة المواقع المفيدة للمدونين الذين يعيدون  كتاباتهم.</p>
+                        </div>
+                    </div>
+                    <div class="comment-sec">
+                        <div class="comment-info">
+                            <h3 class="name">علي عمر</h3>
+                            <p class="date">1 / 2 / 2020</p>
+                        </div>
+                        <div class="comment-desc">
+                            <p>جلب زوار جدد إلى الموقع ، عندما يتم أرشفة الموقع بطريقة صحيحة وسليمة ، فإنهم يستهدفون الزبون مباشرة من خلال الكلمات الدلالية الدلالية التي يقوم الزوار بأرشفة المواقع المفيدة للمدونين الذين يعيدون  كتاباتهم.</p>
+                        </div>
+                    </div>
+                    <div class="new-comment">
+                        <div class="show-task">
+                            <div class="comment-desc">
+                                <div class="task-list">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add-task">
+                            <input type="text" class="input-task" placeholder="أكتب تعليقا">
+                            <input type="submit" value="أرسل" class="input-add">
+                        </div>
+                        <div class="no-task">
+                            <span class="no-task-msg">
+                                <!-- You did not write a comment -->
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End Course Axes Section -->
+        </main><!--End Page Main-->
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="single-clm">
+                            <div class="clm-links">
+                                <ul class="links-list">
+                                    <li class="item"><a href="ar-index.html" class="link">الرئيسية</a></li>
+                                    <li class="item"><a href="#about" class="link">حول</a></li>
+                                    <li class="item"><a href="#aboutCur" class="link">المنهاج الدراسي</a></li>
+                                    <li class="item"><a href="#person" class="link">الفريق</a></li>
+                                    <a href="ar-index.html" class="logo">
+                                        <img src="img/logo.png" alt="LOGO">
+                                    </a>
+                                    <li class="item"><a href="ar-blog.html" class="link">المدونات</a></li>
+                                    <li class="item"><a href="#aboutIns" class="link">المدربين</a></li>
+                                    <li class="item"><a href="ar-course.html" class="link active">الدورات</a></li>
+                                    <li class="item"><a href="ar-product.html" class="link">المنتجات</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="single-copy">
+                            <div class="clm-links">
+                                <div class="social-links">
+                                    <a href="#" class="link"><span class="ri-facebook-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-twitter-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-instagram-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-google-fill icon"></span></a>
+                                </div>
+                            </div>
+                            <div class="copy-right">
+                                <p class="title">غنى &copy; 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer><!--End Page Footer-->
+    </div>
+
+    <!-- ***************** Start Js Files ******************** -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-numerator.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="js/jquery.nice-number.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sub-main.js"></script>
+    <script src="js/comment.js"></script>
+    <!-- ***************** End Js Files ******************** -->
+</body>
+</html>

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الإعدادات</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        
+    <!-- ***************** Start CSS Files ******************** -->
+    <link rel="stylesheet" href="css/remixicon.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.nice-number.css">
+    <link rel="stylesheet" href="css/rtl-style.css">
+    <link rel="stylesheet" href="css/rtl-media.css">
+    <!-- ***************** End CSS Files ******************** -->
+</head>
+<body>
+    <div class="loading-page">
+        <div class="loader">Loading...</div>
+    </div><!--End Loading-->
+    <div class="wrapper">
+        <header class="page-header">
+            <div class="container">
+                <div class="navbar">
+                    <a href="ar-index.html" class="logo">
+                        <img src="img/logo.png" alt="LOGO">
+                    </a>
+                    <button class="btn menu">
+                        <span class="ri-menu-line open"></span>
+                        <span class="ri-close-line close"></span>
+                    </button>
+                    <ul class="navigation">
+                        <li class="link-item"><a href="ar-index.html" class="link">الرئيسية</a></li>
+                        <li class="link-item"><a href="#about" class="link">حول</a></li>
+                        <li class="link-item"><a href="#aboutCur" class="link">المنهاج الدراسي</a></li>
+                        <li class="link-item"><a href="#person" class="link">الفريق</a></li>
+                        <li class="link-item"><a href="ar-blog.html" class="link">المدونات</a></li>
+                        <li class="link-item"><a href="#aboutIns" class="link">المدربين</a></li>
+                        <li class="link-item"><a href="ar-course.html" class="link">الدورات</a></li>
+                        <li class="link-item"><a href="ar-product.html" class="link">المنتجات</a></li>
+                        <li class="link-item"><a href="#contact" class="link">الاتصال</a></li>
+                        <li class="link-item"><a href="settings.html" class="link">En</a></li>
+                    </ul>
+                    <div class="sec-user">
+                        <div class="user-img">
+                            <a href="ar-settings.html"><img src="img/super-admin.png" alt="user-img"></a>
+                        </div>
+                        <hr class="head-line">
+                        <div class="icon-cart">
+                            <a href="#" class="ri-shopping-cart-2-fill"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="sidebar">
+                <div class="top-side">
+                    <h3 class="brand pr-3">
+                        <a href="ar-index.html" class="logo">
+                            <img src="img/logo.png" alt="LOGO">
+                        </a>
+                    </h3> <!-- Website Brand -->
+                    <button class="btn close-btn oc-toggle">
+                        <span class="ri-close-line icon"></span>
+                    </button> <!-- Close side button -->
+                </div> <!-- End Top Side -->
+                <div class="bottom-side">
+                    <div class="content">
+                        <h2 class="title">عربة التسوق</h2>
+                    </div>
+                    <div class="sec-product">
+                        <div class="cart-pro cart_pro">
+                            <div class="pro-img">
+                                <img src="img/pro-1.png" alt="pro-img">
+                            </div>
+                            <div class="desc-pro">
+                                <h2 class="name">محركات أقراص فلاش</h2>
+                                <h2 class="name">| ليكسات</h2>
+                                <h2 class="price">$20.00</h2>
+                            </div>
+                            <div class="dlt-pro">
+                                <div class="count-pro">
+                                    <input type="number" min="1" value="1">
+                                </div>
+                            </div>
+                            <button class="btn close-pro">
+                                <span class="ri-close-line icon"></span>
+                            </button> <!-- Close side button -->
+                        </div>
+                        <div class="cart-pro">
+                            <div class="pro-img">
+                                <img src="img/pro-2.png" alt="pro-img">
+                            </div>
+                            <div class="desc-pro">
+                                <h2 class="name">محركات أقراص فلاش</h2>
+                                <h2 class="name">| ليكسات</h2>
+                                <h2 class="price">$70.00</h2>
+                            </div>
+                            <div class="dlt-pro">
+                                <div class="count-pro">
+                                    <input type="number" min="1" value="1">
+                                </div>
+                            </div>
+                            <button class="btn close-pro">
+                                <span class="ri-close-line icon"></span>
+                            </button> <!-- Close side button -->
+                        </div>
+                        <div class="cart-pro">
+                            <div class="pro-img">
+                                <img src="img/usb-u202-banner-01-sp.png" alt="pro-img">
+                            </div>
+                            <div class="desc-pro">
+                                <h2 class="name">محركات أقراص فلاش</h2>
+                                <h2 class="name">| ليكسات</h2>
+                                <h2 class="price">$90.00</h2>
+                            </div>
+                            <div class="dlt-pro">
+                                <div class="count-pro">
+                                    <input type="number" min="1" value="1">
+                                </div>
+                            </div>
+                            <button class="btn close-pro">
+                                <span class="ri-close-line icon"></span>
+                            </button> <!-- Close side button -->
+                        </div>
+                        <div class="sec-check">
+                            <div class="desc-price">
+                                <h3 class="name">المجموع :</h3>
+                                <h2 class="price">$100.00</h2>
+                            </div>
+                            <div class="btn-pro">
+                                <a href="ar-checkout.html" class="btn-price">الدفع</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Bottom Side -->
+            </aside> <!-- End Sidebar -->
+            <div class="overlay"></div> <!-- Overlay Div -->
+            <!-- Start Up Button -->
+            <a href="#" class="btn up-btn">
+                <span class="ri-arrow-up-line"></span>
+            </a>
+        </header> <!-- End Page Header -->
+        <main class="page-main">
+            <div class="settings_section" id="settings">
+                <div class="container">
+                    <div class="content-pro">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a href="#profile" class="nav-link active" data-toggle="tab">
+                                    <span class="ri-user-3-fill icon"></span>
+                                    <span class="link-name">الخصوصية</span>
+                                </a>
+                            </li> <!-- Single Item -->
+                            <li class="nav-item">
+                                <a href="#courses" class="nav-link" data-toggle="tab">
+                                    <span class="ri-slideshow-3-fill icon"></span>
+                                    <span class="link-name">الدورات</span>
+                                </a>
+                            </li> <!-- Single Item -->
+                            <li class="nav-item">
+                                <a href="#orders" class="nav-link" data-toggle="tab">
+                                    <span class="ri-list-check-2 icon"></span>
+                                    <span class="link-name">الطلبات</span>
+                                </a>
+                            </li> <!-- Single Item -->
+                            <li class="nav-item">
+                                <a href="ar-account.html" class="nav-link">
+                                    <span class="ri-logout-box-r-line icon"></span>
+                                    <span class="link-name">خروج</span>
+                                </a>
+                            </li> <!-- Single Item -->
+                        </ul> <!-- End Side List -->
+                        <div class="tab-content">
+                            <div class="tab-pane fade active show"" id="profile">
+                                <div class="content">
+                                    <h3 class="title">معلومات شخصية :</h3>
+                                </div>
+                                <form class="contact-form">
+                                    <div class="input-wrapper">
+                                        <label class="lbl">الإسم بالكامل :</label>
+                                        <input type="text" placeholder="Shimaa zakarya" class="inputf mar-na" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-exist"> اسم المستخدم موجود بالفعل</span>
+                                        </div>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-invalid"> يجب أن يكون اسم المستخدم أكثر من 3 أحرف</span>
+                                        </div>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label class="lbl">البريد الإلكتروني :</label>
+                                        <input type="email" placeholder="Shimaa zakarya@gmail.com" class="inputf mar-em" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty para-invalid">  البريد الإلكتروني غير صالح</span>
+                                        </div>
+                                    </div>                        
+                                    <div class="input-wrapper">
+                                        <label class="lbl">الهاتف :</label>
+                                        <input type="number" min="0" placeholder="-972 000000000000" class="inputf mar-mo" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  يرجى ملء جميع معلومات الوقود المطلوبة</span>
+                                        </div>
+                                    </div>
+                                    <div class="btn-wrapper">
+                                        <a class="change-pass" href="#">تغيير كلمة المرور</a>
+                                        <button class="btn-edit">تعديل</button>
+                                    </div>
+                                </form>               
+                            </div>
+                            <div class="tab-pane fade" id="courses">
+                                <div class="content">
+                                    <h3 class="title">الدورات :</h3>
+                                </div>
+                                <!-- Course Section -->
+                                <div class="course-pro" id="course">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-6 col-md-4 col-lg-6 col-xl-3">
+                                                <div class="course-box">
+                                                    <a href="ar-course-details.html">
+                                                        <div class="single-box">
+                                                            <div class="content">
+                                                                <div class="course-img">
+                                                                    <img src="img/fgdr5343.png" width="40" height="40" alt="course-img">
+                                                                </div>
+                                                                <div class="desc-course">
+                                                                    <h3 class="name">شيماء زكريا</h3>
+                                                                    <h3 class="job-title">مدير تنفيذي</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <div class="name-per">
+                                                        <div class="price">20.00 $</div>
+                                                        <div class="title">خطوة الاستثمار في الأسهم</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-4 col-lg-6 col-xl-3">
+                                                <div class="course-box">
+                                                    <a href="ar-course-details.html">
+                                                        <div class="single-box">
+                                                            <div class="content">
+                                                                <div class="course-img">
+                                                                    <img src="img/fgdr5343.png" width="40" height="40" alt="course-img">
+                                                                </div>
+                                                                <div class="desc-course">
+                                                                    <h3 class="name">شيماء زكريا</h3>
+                                                                    <h3 class="job-title">مدير تنفيذي</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <div class="name-per">
+                                                        <div class="price">20.00 $</div>
+                                                        <div class="title">خطوة الاستثمار في الأسهم</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-4 col-lg-6 col-xl-3">
+                                                <div class="course-box">
+                                                    <a href="ar-course-details.html">
+                                                        <div class="single-box">
+                                                            <div class="content">
+                                                                <div class="course-img">
+                                                                    <img src="img/fgdr5343.png" width="40" height="40" alt="course-img">
+                                                                </div>
+                                                                <div class="desc-course">
+                                                                    <h3 class="name">شيماء زكريا</h3>
+                                                                    <h3 class="job-title">مدير تنفيذي</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <div class="name-per">
+                                                        <div class="price">20.00 $</div>
+                                                        <div class="title">خطوة الاستثمار في الأسهم</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-4 col-lg-6 col-xl-3">
+                                                <div class="course-box">
+                                                    <a href="ar-course-details.html">
+                                                        <div class="single-box">
+                                                            <div class="content">
+                                                                <div class="course-img">
+                                                                    <img src="img/fgdr5343.png" width="40" height="40" alt="course-img">
+                                                                </div>
+                                                                <div class="desc-course">
+                                                                    <h3 class="name">شيماء زكريا</h3>
+                                                                    <h3 class="job-title">مدير تنفيذي</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <div class="name-per">
+                                                        <div class="price">20.00 $</div>
+                                                        <div class="title">خطوة الاستثمار في الأسهم</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--End Course Section-->          
+                            </div>
+                            <div class="tab-pane fade" id="orders">
+                                <div class="content">
+                                    <h3 class="title">الطلبات :</h3>
+                                </div>
+                                <div class="order-pro">
+                                    <a href="#" class="order-det">
+                                        <div class="order-box">
+                                            <div class="ord-info">
+                                                <h3>رقم الطلب : 12345678</h3>
+                                                <div class="txt-home">
+                                                    <span class="ri-time-line"></span>
+                                                    <p>7/8/2020  7:30</p>
+                                                    <h4>مكتمل</h4>
+                                                </div>
+                                            </div>
+                                            <div class="ord-price">
+                                                <h3>$300</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="order-det">
+                                        <div class="order-box">
+                                            <div class="ord-info">
+                                                <h3>رقم الطلب : 12345678</h3>
+                                                <div class="txt-home">
+                                                    <span class="ri-time-line"></span>
+                                                    <p>7/8/2020  7:30</p>
+                                                    <h4 class="delivery">توصيل</h4>
+                                                </div>
+                                            </div>
+                                            <div class="ord-price">
+                                                <h3>$300</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="order-det">
+                                        <div class="order-box">
+                                            <div class="ord-info">
+                                                <h3>رقم الطلب : 12345678</h3>
+                                                <div class="txt-home">
+                                                    <span class="ri-time-line"></span>
+                                                    <p>7/8/2020  7:30</p>
+                                                    <h4>مكتمل</h4>
+                                                </div>
+                                            </div>
+                                            <div class="ord-price">
+                                                <h3>$300</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="order-btn">
+                                    <a href="#">أكثر</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="asides">
+                        <aside class="sidepro">
+                            <div class="top-side">
+                                <h3 class="brand pr-3">
+                                    <a href="ar-index.html" class="logo">
+                                        <img src="img/logo.png" alt="LOGO">
+                                    </a>
+                                </h3> <!-- Website Brand -->
+                                <button class="btn close-btn oc-toggle">
+                                    <span class="ri-close-line icon"></span>
+                                </button> <!-- Close side button -->
+                            </div><!-- End Top Side -->
+                            <div class="bottom-side">
+                                <div class="content">
+                                    <h2 class="title">تعديل الملف الشخصي</h2>
+                                </div>
+                                <form class="contact-form">
+                                    <div class="input-wrapper">
+                                        <label class="lbl">الإسم بالكامل :</label>
+                                        <input type="text" placeholder="شيماء زكريا" class="inputf mar-na" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-exist"> اسم المستخدم موجود بالفعل</span>
+                                        </div>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-invalid"> يجب أن يكون اسم المستخدم أكثر من 3 أحرف</span>
+                                        </div>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label class="lbl">البريد الإلكتروني :</label>
+                                        <input type="email" placeholder="Shimaa zakarya@gmail.com" class="inputf mar-em" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty para-invalid">  البريد الإلكتروني غير صالح</span>
+                                        </div>
+                                    </div>                        
+                                    <div class="input-wrapper">
+                                        <label class="lbl">الهاتف :</label>
+                                        <div class="menu">
+                                            <select class="form-control num-site  reg_code">
+                                                <option value="973">+973</option>
+                                                <option value="965">965</option>
+                                                <option value="966">966</option>
+                                                <option value="20">20</option>
+                                                <option value="967">967</option>
+                                                <option value="967">964</option>
+                                                <option value="974">974</option>
+                                                <option value="968">968</option>
+                                                <option value="971">971</option>
+                                                <option value="961">961</option>
+                                            </select>
+                                            <input type="number" min="0" placeholder="-972 000000000000" class=" reg_mobile mar-mo" required>
+                                        </div>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                        </div>
+                                    </div>
+                                    <div class="btn-wrapper">
+                                        <a href="ar-settings.html" class="btn-edit">تعديل</a>
+                                    </div>
+                                </form> 
+                            </div><!-- End Bottom Side -->
+                        </aside> <!-- End Sidepro -->
+                        <aside class="sidepass">
+                            <div class="top-side">
+                                <h3 class="brand pr-3">
+                                    <a href="ar-index.html" class="logo">
+                                        <img src="img/logo.png" alt="LOGO">
+                                    </a>
+                                </h3> <!-- Website Brand -->
+                                <button class="btn close-btn oc-toggle">
+                                    <span class="ri-close-line icon"></span>
+                                </button> <!-- Close side button -->
+                            </div> <!-- End Top Side -->
+                            <div class="bottom-side">
+                                <div class="content">
+                                    <h2 class="title">تغيير كلمة المرور</h2>
+                                </div>
+                                <form class="contact-form">
+                                    <div class="input-wrapper">
+                                        <label class="lbl"> كلمة سر قديمة :</label>
+                                        <input type="password" placeholder="...................." class="inputf mar-na" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label class="lbl"> كلمة مرور جديدة :</label>
+                                        <input type="password" placeholder="...................." class="inputf mar-em" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                        </div>
+                                    </div>                        
+                                    <div class="input-wrapper">
+                                        <label class="lbl">تأكيد كلمة المرور :</label>
+                                        <input type="password" placeholder="...................." class="inputf mar-mo" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                        </div>
+                                    </div>
+                                    <div class="btn-wrapper">
+                                        <a href="ar-settings.html" class="btn-edit">حفظ</a>
+                                    </div>
+                                </form> 
+                            </div> <!-- End Bottom Side -->
+                        </aside> <!-- End Sidepass -->
+                        <aside class="sideord">
+                            <div class="top-side">
+                                <h3 class="brand pr-3">
+                                    <a href="ar-index.html" class="logo">
+                                        <img src="img/logo.png" alt="LOGO">
+                                    </a>
+                                </h3> <!-- Website Brand -->
+                                <button class="btn close-btn oc-toggle">
+                                    <span class="ri-close-line icon"></span>
+                                </button> <!-- Close side button -->
+                            </div> <!-- End Top Side -->
+                            <div class="bottom-side">
+                                <div class="sec_head">
+                                    <h2 class="title">تفاصيل الطلب</h2>
+                                    <p class="time-pur"><span class="ri-time-line icon-pur"></span><span>7/8/2020  7:30</span></p>
+                                </div>
+                                <div class="sec_bottom">
+                                <form class="contact-form">
+                                    <div class="txt-home">
+                                        <span>المجموع :</span>
+                                        <h3>$100.00</h3>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label class="lbl"> رقم الطلب :</label>
+                                        <input type="let" placeholder="12345678" class="inputf margin-id" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper dbl-input">
+                                        <div class="input-status">
+                                            <label class="lbl"> الحالة :</label>
+                                            <input type="text" placeholder="Complete" class="inputf margin-st" required>
+                                            <div>
+                                                <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                            </div>
+                                        </div>
+                                        <div class="input-payment">
+                                            <label class="lbl"> طريقة الدفع :</label>
+                                            <input type="text" placeholder="نقدي" class="inputf margin-pt" required>
+                                            <div>
+                                                <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                    <div class="input-wrapper">
+                                        <label class="lbl">الإسم بالكامل :</label>
+                                        <input type="password" placeholder="شيماء زكريا" class="inputf margin-fn" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label class="lbl">البريد الإلكتروني :</label>
+                                        <input type="password" placeholder="Shimaa zakarya@gmail.com" class="inputf margin-em" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label class="lbl">الهاتف :</label>
+                                        <input type="password" placeholder="-972 000000000000" class="inputf margin-mo" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label class="lbl">العنوان :</label>
+                                        <input type="password" class="inputf address-input" placeholder="هناك حقيقة مثبتة منذ زمن طويل وهي أن  عندما تبدو الإنجليزية قابلة للقراءة." required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label class="lbl">الملاحظات :</label>
+                                        <input type="password" class="inputf notes-input mar-mo" placeholder="هناك حقيقة مثبتة منذ زمن طويل وهي أن  عندما تبدو الإنجليزية قابلة للقراءة." required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  الرجاء تعبئة جميع المعلومات المطلوبة</span>
+                                        </div>
+                                    </div>
+                                </form> 
+                                <div class="sec_product">
+                                    <div class="txt-home">
+                                        <h3>المنتجات</h3>
+                                    </div>
+                                    <div class="product_boxes">
+                                        <div class="product-box">
+                                            <div class="product_img">
+                                                <img src="img/79267907_7310031085.png" width="50" height="90" alt="pro-img">
+                                            </div>
+                                            <div class="txt-home">
+                                                <p>فلاش يو اس بي ليكسات | ليكسات</p>
+                                                <h4>200.00 $</h4>
+                                            </div>
+                                        </div>
+                                        <div class="product-box">
+                                            <div class="product_img">
+                                                <img src="img/pro-3.png" width="50" height="90" alt="pro-img">
+                                            </div>
+                                            <div class="txt-home">
+                                                <p>فلاش يو اس بي ليكسات | ليكسات</p>
+                                                <h4>70.00 $</h4>
+                                            </div>
+                                        </div>
+                                        <div class="product-box">
+                                            <div class="product_img">
+                                                <img src="img/pro-1.png" width="50" height="90" alt="pro-img">
+                                            </div>
+                                            <div class="txt-home">
+                                                <p>فلاش يو اس بي ليكسات | ليكسات</p>
+                                                <h4>130.00 $</h4>
+                                            </div>
+                                        </div>
+                                        <div class="product-box">
+                                            <div class="product_img">
+                                                <img src="img/pro-1.png" width="50" height="90" alt="pro-img">
+                                            </div>
+                                            <div class="txt-home">
+                                                <p>فلاش يو اس بي ليكسات | ليكسات</p>
+                                                <h4>150.00 $</h4>
+                                            </div>
+                                        </div>
+                                        <div class="product-box">
+                                            <div class="product_img">
+                                                <img src="img/pro-3.png" width="50" height="90" alt="pro-img">
+                                            </div>
+                                            <div class="txt-home">
+                                                <p>فلاش يو اس بي ليكسات | ليكسات</p>
+                                                <h4>120.00 $</h4>
+                                            </div>
+                                        </div>
+                                        <div class="product-box">
+                                            <div class="product_img">
+                                                <img src="img/79267907_7310031085.png" width="50" height="90" alt="pro-img">
+                                            </div>
+                                            <div class="txt-home">
+                                                <p>فلاش يو اس بي ليكسات | ليكسات</p>
+                                                <h4>20.00 $</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div> <!-- End Bottom Side -->
+                        </aside> <!-- End Sideord -->
+                        <div class="overlay"></div> <!-- Overlay Div -->
+                    </div>
+                </div>
+            </div>
+        </main><!--End Page Main-->
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="single-clm">
+                            <div class="clm-links">
+                                <ul class="links-list">
+                                    <li class="item"><a href="ar-index.html" class="link active">الرئيسية</a></li>
+                                    <li class="item"><a href="#about" class="link">حول</a></li>
+                                    <li class="item"><a href="#aboutCur" class="link">المنهاج الدراسي</a></li>
+                                    <li class="item"><a href="#person" class="link">الفريق</a></li>
+                                    <a href="ar-index.html" class="logo">
+                                        <img src="img/logo.png" alt="LOGO">
+                                    </a>
+                                    <li class="item"><a href="ar-blog.html" class="link">المدونات</a></li>
+                                    <li class="item"><a href="#aboutIns" class="link">المدربين</a></li>
+                                    <li class="item"><a href="ar-course.html" class="link">الدورات</a></li>
+                                    <li class="item"><a href="ar-product.html" class="link">المنتجات</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="single-copy">
+                            <div class="clm-links">
+                                <div class="social-links">
+                                    <a href="#" class="link"><span class="ri-facebook-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-twitter-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-instagram-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-google-fill icon"></span></a>
+                                </div>
+                            </div>
+                            <div class="copy-right">
+                                <p class="title">غنى &copy; 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer><!--End Page Footer-->
+    </div>
+    <!-- ***************** Start Js Files ******************** -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-numerator.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.nice-number.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sub-main.js"></script>
+    <!-- ***************** End Js Files ******************** -->
+</body>
+</html>

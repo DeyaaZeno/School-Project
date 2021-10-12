@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        
+    <!-- ***************** Start CSS Files ******************** -->
+    <link rel="stylesheet" href="css/remixicon.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.nice-number.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- ***************** End CSS Files ******************** -->
+</head>
+<body>
+    <div class="loading-page">
+        <div class="loader">Loading...</div>
+    </div><!--End Loading-->
+    <div class="wrapper">
+        <header class="page-header">
+            <div class="container">
+                <div class="navbar">
+                    <a href="index.html" class="logo">
+                        <img src="img/logo.png" alt="LOGO">
+                    </a>
+                    <button class="btn menu">
+                        <span class="ri-menu-line open"></span>
+                        <span class="ri-close-line close"></span>
+                    </button>
+                    <ul class="navigation">
+                        <li class="link-item"><a href="index.html" class="link">Home</a></li>
+                        <li class="link-item"><a href="#about" class="link">About</a></li>
+                        <li class="link-item"><a href="#aboutCur" class="link">Curriculum</a></li>
+                        <li class="link-item"><a href="#person" class="link">Team</a></li>
+                        <li class="link-item"><a href="blog.html" class="link">Blogs</a></li>
+                        <li class="link-item"><a href="#aboutIns" class="link">Instructors</a></li>
+                        <li class="link-item"><a href="course.html" class="link">Courses</a></li>
+                        <li class="link-item"><a href="product.html" class="link">Products</a></li>
+                        <li class="link-item"><a href="#contact" class="link">Connect</a></li>
+                        <li class="link-item"><a href="ar-checkout.html" class="link">Ar</a></li>
+                    </ul>
+                    <div class="sec-user">
+                        <div class="user-img">
+                            <a href="settings.html"><img src="img/super-admin.png" alt="user-img"></a>
+                        </div>
+                        <hr class="head-line">
+                        <div class="icon-cart">
+                            <a href="#" class="ri-shopping-cart-2-fill"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="sidebar">
+                <div class="top-side">
+                    <h3 class="brand pr-3">
+                        <a href="index.html" class="logo">
+                            <img src="img/logo.png" alt="LOGO">
+                        </a>
+                    </h3> <!-- Website Brand -->
+                    <button class="btn close-btn oc-toggle">
+                        <span class="ri-close-line icon"></span>
+                    </button> <!-- Close side button -->
+                </div> <!-- End Top Side -->
+                <div class="bottom-side">
+                    <div class="content">
+                        <h2 class="title">shopping cart</h2>
+                    </div>
+                    <div class="sec-product">
+                        <div class="cart-pro cart_pro">
+                            <div class="pro-img">
+                                <img src="img/pro-1.png" alt="pro-img">
+                            </div>
+                            <div class="desc-pro">
+                                <h2 class="name">Lexat USB Flash Drives</h2>
+                                <h2 class="name">| Lexat</h2>
+                                <h2 class="price">20.00$</h2>
+                            </div>
+                            <div class="dlt-pro">
+                                <div class="count-pro">
+                                    <input type="number" min="1" value="1">
+                                </div>
+                            </div>
+                            <button class="btn close-pro">
+                                <span class="ri-close-line icon"></span>
+                            </button> <!-- Close side button -->
+                        </div>
+                        <div class="cart-pro">
+                            <div class="pro-img">
+                                <img src="img/pro-2.png" alt="pro-img">
+                            </div>
+                            <div class="desc-pro">
+                                <h2 class="name">Lexat USB Flash Drives</h2>
+                                <h2 class="name">| Lexat</h2>
+                                <h2 class="price">70.00$</h2>
+                            </div>
+                            <div class="dlt-pro">
+                                <div class="count-pro">
+                                    <input type="number" min="1" value="1">
+                                </div>
+                            </div>
+                            <button class="btn close-pro">
+                                <span class="ri-close-line icon"></span>
+                            </button> <!-- Close side button -->
+                        </div>
+                        <div class="cart-pro">
+                            <div class="pro-img">
+                                <img src="img/usb-u202-banner-01-sp.png" alt="pro-img">
+                            </div>
+                            <div class="desc-pro">
+                                <h2 class="name">Lexat USB Flash Drives</h2>
+                                <h2 class="name">| Lexat</h2>
+                                <h2 class="price">90.00$</h2>
+                            </div>
+                            <div class="dlt-pro">
+                                <div class="count-pro">
+                                    <input type="number" min="1" value="1">
+                                </div>
+                            </div>
+                            <button class="btn close-pro">
+                                <span class="ri-close-line icon"></span>
+                            </button> <!-- Close side button -->
+                        </div>
+                        <div class="sec-check">
+                            <div class="desc-price">
+                                <h3 class="name">total :</h3>
+                                <h2 class="price">100.00$</h2>
+                            </div>
+                            <div class="btn-pro">
+                                <a href="checkout.html" class="btn-price">Checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Bottom Side -->
+            </aside> <!-- End Sidebar -->
+            <div class="overlay"></div> <!-- Overlay Div -->
+            <!-- Start Up Button -->
+            <a href="#" class="btn up-btn">
+                <span class="ri-arrow-up-line"></span>
+            </a>
+        </header> <!-- End Page Header -->
+        <main class="page-main">
+            <section class="checkout_section" id="checkout">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-7">
+                            <div class="left-side">
+                                <div class="txt-home">
+                                    <h3>checkout</h3>
+                                </div>
+                                <form class="contact-form">
+                                    <div class="input-wrapper">
+                                        <label class="lbl"> Address  :</label>
+                                        <input type="let" placeholder="It is a long established fact that adevcx reade read conte ofa page when looking look readable English." class="inputf address-input" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  please fill all the required info</span>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label class="lbl"> Payment Method :</label>
+                                        <div class="payment-input">
+                                            <div class="cash-input">
+                                                <input type="radio">
+                                                <label> Cash</label>
+                                            </div>
+                                            <div class="online-input">
+                                                <input type="radio">
+                                                <label> Online</label>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                    <div class="input-wrapper">
+                                        <label class="lbl">Full Name :</label>
+                                        <input type="password" placeholder="Shimaa zakarya" class="inputf" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  please fill all the required info</span>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label class="lbl">Email :</label>
+                                        <input type="password" placeholder="Shimaa zakarya@gmail.com" class="inputf" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  please fill all the required info</span>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label class="lbl">Mobile :</label>
+                                        <input type="password" placeholder="-972 000000000000" class="inputf" required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  please fill all the required info</span>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper">
+                                        <label class="lbl">Notes :</label>
+                                        <input type="password" class="inputf notes-input" placeholder="It is a long established fact that adevcx reade read conte content ofa page when looking look like readab English ofa page when looking look readable English." required>
+                                        <div>
+                                            <span class="fas fa-exclamation-triangle para-empty">  please fill all the required info</span>
+                                        </div>
+                                    </div>
+                                    <div class="btn-wrapper">
+                                        <a href="#" class="btn-edit">send</a>
+                                    </div>
+                                </form> 
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <div class="rigth-side">
+                                <div class="txt-home">
+                                    <h3>products</h3>
+                                </div>
+                                <div class="product_boxes">
+                                    <div class="product-box">
+                                        <div class="product_img">
+                                            <img src="img/79267907_7310031085.png" width="30" height="70" alt="pro-img">
+                                        </div>
+                                        <div class="txt-home">
+                                            <p>Lexat USB Flash Drives | Lexat</p>
+                                            <h4>200.00 $</h4>
+                                        </div>
+                                    </div>
+                                    <div class="product-box">
+                                        <div class="product_img">
+                                            <img src="img/pro-3.png" width="30" height="70" alt="pro-img">
+                                        </div>
+                                        <div class="txt-home">
+                                            <p>Lexat USB Flash Drives | Lexat</p>
+                                            <h4>70.00 $</h4>
+                                        </div>
+                                    </div>
+                                    <div class="product-box">
+                                        <div class="product_img">
+                                            <img src="img/pro-1.png" width="30" height="70" alt="pro-img">
+                                        </div>
+                                        <div class="txt-home">
+                                            <p>Lexat USB Flash Drives | Lexat</p>
+                                            <h4>150.00 $</h4>
+                                        </div>
+                                    </div>
+                                    <div class="product-box">
+                                        <div class="product_img">
+                                            <img src="img/79267907_7310031085.png" width="30" height="70" alt="pro-img">
+                                        </div>
+                                        <div class="txt-home">
+                                            <p>Lexat USB Flash Drives | Lexat</p>
+                                            <h4>190.00 $</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="txt-avg">
+                                    <h3>total :</h3>
+                                    <h4>100.00$</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!--End Chechout Section-->
+        </main><!--End Page Main-->
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="single-clm">
+                            <div class="clm-links">
+                                <ul class="links-list">
+                                    <li class="item"><a href="index.html" class="link">Home</a></li>
+                                    <li class="item"><a href="#about" class="link">About</a></li>
+                                    <li class="item"><a href="#aboutCur" class="link">Curriculum</a></li>
+                                    <li class="item"><a href="#person" class="link">Team</a></li>
+                                    <a href="index.html" class="logo">
+                                        <img src="img/logo.png" alt="LOGO">
+                                    </a>
+                                    <li class="item"><a href="blog.html" class="link">Blogs</a></li>
+                                    <li class="item"><a href="#aboutIns" class="link">Instructors</a></li>
+                                    <li class="item"><a href="course.html" class="link">Courses</a></li>
+                                    <li class="item"><a href="product.html" class="link">Products</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="single-copy">
+                            <div class="clm-links">
+                                <div class="social-links">
+                                    <a href="#" class="link"><span class="ri-facebook-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-twitter-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-instagram-fill icon"></span></a>
+                                    <a href="#" class="link"><span class="ri-google-fill icon"></span></a>
+                                </div>
+                            </div>
+                            <div class="copy-right">
+                                <p class="title">Ghina &copy; 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer><!--End Page Footer-->
+    </div>
+    <!-- ***************** Start Js Files ******************** -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-numerator.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.nice-number.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sub-main.js"></script>
+    <!-- ***************** End Js Files ******************** -->
+</body>
+</html>

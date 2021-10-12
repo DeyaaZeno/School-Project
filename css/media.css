@@ -1,0 +1,2068 @@
+/* Extra small devices (portrait phones, less than 483px) */
+@media (min-width: 350px) and (max-width: 483.98px){
+    .page-header .navbar .navigation{
+        position: fixed;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: -20px;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        height: 80vh;
+        background-color: #161615;
+        transition: .5s;
+    }
+    .navbar .navigation.active{
+        left: 20px;
+    }
+    .navbar .navigation .link-item .link{
+        color: #fff;
+        font-size: 18px;
+        display: inline-block;
+        width: 100%;
+        padding: 8px 15px;
+    }
+    .page-header .navbar .sec-user{
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -20px;
+        top: 620px;
+        left: -100%;
+        width: 100%;
+        padding: 0 150px;
+        background-color: #161615;
+        transition: .5s;
+    }
+    .page-header .sec-user.active{
+        left: 20px;
+    }
+    .banner-sec .content .title{
+        font-size: 1.8em;
+    }
+    .navbar .btn.menu{
+        display: inline-block;
+    }
+    .banner-sec .content{
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .banner-sec .content:before{
+        left: -10px;
+        width: 350px;
+        height: 350px;
+    }
+    .page-header .navbar{
+        padding: 20px;
+    }
+    .page-header .navbar.sticky{
+        padding: 20px;
+    }
+    .page-header .head-line{
+        background-color: #B88306;
+    }
+    .page-header .icon-cart a{
+        color: #B88306;
+    }
+    .connect-sec .single-connect{
+        width: 400px;
+        height: 240px;
+        text-align: center;
+    }
+    .connect-sec .single-connect .sec-title .title{
+        font-size: 1.5em;
+    }
+    .connect-sec .single-connect .sec-title .sub-title{
+        font-size: 1.1em;
+    }
+    .connect-sec .sec-message{
+        margin-top: 30px;
+        position: relative;
+    }
+    .connect-sec .single-connect .sec-message .con-btn{
+        right: 58px;
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+    .connect-sec .sec-message .input-msg{
+        height: 40px;
+        font-size: 13px;
+    }
+    .about-sec{
+        padding: 130px 0 85px 0;
+    }
+    .about-sec .about-img{
+        text-align: center;
+    }
+    .about-sec .about-img img{
+        width: 300px;
+        height: 400px;
+        margin-bottom: 40px;
+    }
+    .about-sec .content{
+        padding-left: 1px;
+    }
+    .about-sec .content:before{
+        top: -10px;
+        right: 20px;
+        width: 250px;
+        height: 370px;
+    }
+    .about-sec .sub-title, 
+    .aboutCur-sec  .sub-title, 
+    .success-sec .sub-title, 
+    .video-sec .sub-title, 
+    .person-sec .sub-title{
+        font-size: 30px;
+    }
+    .about-sec .title, 
+    .aboutCur-sec .title, 
+    .success-sec .title, 
+    .video-sec .title, 
+    .person-sec .title{
+        font-size: 20px;
+    }
+    .about-sec .content .para{
+        width: 90%;
+    }
+    .about-sec .content .para, .aboutCur-sec .content .para{
+        font-size: 13px;
+    }
+    .aboutCur-sec .content:before{
+        border-left: 8px solid #B88306;
+        border-bottom: 8px solid #B88306;
+        height: 170px;
+    }
+    .success-sec{
+        padding: 130px 0 85px 0;
+    }
+    .success-sec .content{
+        padding: 0 10px;
+    }
+    .success-sec .para{
+        font-size: 15px;
+        width: 60%;
+    }
+    .success-sec .leftsec-btn, .success-sec .rightsec-btn{
+        left: 10px;
+    }
+    .video-sec{
+        padding: 130px 0 85px 0;
+    }
+    .video-sec .content:before{
+        top: -30px;
+        left: -5px;
+        width: 150px;
+        height: 300px;
+    }
+    .video-sec .video{
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+    .video-sec .video video{
+        width: 75%;
+        height: 65vh;
+    }
+    .video-sec .content{
+        padding-left: 25px;
+    }
+    .video-sec .container:before{
+        top: 150px;
+        right: 10px;
+        width: 150px;
+        height: 210px;
+    }
+    .video-sec .carousel-indicators{
+        margin-bottom: -50px;
+        margin-left: 0;
+        display: flex;
+        justify-content: left;
+    }
+    .video-sec .carousel-indicators li{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #B88306;
+    }
+    .aboutIns-sec{
+        padding: 130px 0;
+    }
+    .aboutIns-sec .sub-title{
+        font-size: 35px;
+    }
+    .aboutIns-sec .title{
+        font-size: 18px;
+    }
+    .aboutIns-sec .ins-boxes .name{
+        font-size: 30px; 
+    }
+    .aboutIns-sec .ins-boxes .job-title{
+        font-size: 20px;  
+    }
+    .aboutIns-sec .ins-boxes .job-desc{
+        font-size: 17px;
+    }
+    .aboutIns-sec .container:before{
+        left: 10px;
+        width: 130px;
+        height: 130px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img img{
+        width: 100px;
+        height: 200px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img:before{
+        right: 40px;
+        width: 100px;
+        height: 200px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img::after{
+        top: 80px;
+        right: 70px;
+        width: 100px;
+        height: 200px;
+    }
+    .contact-sec .sub-title{
+        font-size: 35px;
+    }
+    .contact-sec .title{
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fff;
+        opacity: 0.5;    
+        text-align: center;
+    }
+    .contact-sec .con-boxes{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-sec .contact-us{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3px auto;
+    }
+    .contact-sec .contact-form .inputf{
+        padding: 10px;
+    }
+    .contact-sec .input-wrapper .icon-fill{
+        top: 13px;
+        right: 20px;
+        font-size: 20px;
+    }
+    .contact-sec .contact-form .inputarea{
+        width: 240px;
+        padding: 25px;
+    }
+    .contact-sec .textarea-wrapper .icon-fill{
+        top: 15px;
+        right: 20px;
+        font-size: 23px;
+    }
+    .contact-sec .container:before{
+        top: -30px;
+        left: 10px;
+    }
+    .contact-sec .contact-form:before{
+        bottom: -30px;
+        right: 10px;
+    }
+    .person-sec .sec-line{
+        width: 99%;
+    }
+    .page-footer{
+        padding: 150px 10px 10px 10px;
+    }
+    .page-footer .single-clm .links-list{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }    
+    .page-footer .single-clm .links-list li{
+        order: 2;
+    }
+    .page-footer .logo{
+        margin: -90px 0 30px 0;
+        order: 1;
+    }
+    .page-footer .single-copy{
+        justify-content: center;
+        width: 100%;
+    }
+    .single-copy .clm-links .social-links .link{
+        margin-right: 3px;
+    }
+    .page-header .sidebar{
+        width: 100%;
+    }
+    .search-sec{
+        padding: 100px 5px 10px 5px;
+    }
+    .search-sec .single-saerch .sec-title .title{
+        font-size: 30px;
+    }
+    .search-sec .sec-message .input-msg{
+        width: 80%;
+    }
+    .search-sec .single-saerch .sec-message .icon-search{
+        right: 70px;
+    }
+    .course-det .content{
+        max-width: 430px;
+        padding: 30px;
+        margin-left: 30px;
+    }
+    .course-det .content:before{
+        border-top: 15px solid #B88306;
+        border-left: 15px solid #B88306;
+        border-right: 15px solid #B88306;
+        left: -5px;
+        width: 370px;
+        height: 570px;
+    }
+    .course-det .content .title{
+        font-size: 2.5em;
+    }
+    .course-det .content .para{
+        font-size: 1em;
+    }
+    .course-axes .file-down .file-info img{
+        padding-right: 1px;
+    }
+    .course-axes .file-down .file-info a{
+        font-size: 14px;
+    }
+    .course-axes .file-down .btn-down .b-down{
+        font-size: 12px;
+    }
+    .course-axes .less-content .less-title{
+        font-size: 20px;
+    }
+    .add-task{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .input-task{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .input-add{
+        padding: 10px 70px;
+        height: 50px;
+    }
+    .blog-sec{
+        height: 5000px;
+    }
+    .blogDetails-sec{
+        height: 3000px;
+    }
+    .blogDetails-sec .img-head{
+        width: 80%;
+        height: 50vh;
+        margin: 0 auto;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails:before{
+        left: 0;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails{
+        padding-left: 30px;
+    }
+    .blogDetails-sec .single-box p{
+        margin-left: 0;
+    }
+    .blogDetails-sec .single-box .txt-user{
+        margin-left: 0;
+        width: 100%;
+    }
+    .blogDetails-sec .txt-parg{
+        font-size: 13px;
+    }
+    .blogDetails-sec .parg-sec .sub-title h2{
+        font-size: 23px;
+    }
+    .blogDetails-sec .parg-sec ul li{
+        font-size: 13px;
+    }
+    .blogDetails-sec .share-sec .social-links{
+        width: 50%;
+    }
+    .blogDetails-sec .share-sec h3{
+        font-size: 30px;
+    }
+    .blogDetails-sec .share-sec .social-links .link{
+        font-size: 30px;
+    }
+    .checkput_section .left-side{
+        padding-bottom: 100px;
+    }
+    .settings_section{
+        height: 1100px;
+    }
+    .settings_section .content-pro{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .settings_section .tab-content{
+        width: 100%;
+        height: 75vh;
+        padding: 30px 15px;
+    }
+    .settings_section .nav-tabs{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item{
+        width: 85px;
+        display: flex;
+        align-items: center;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link .link-name{
+        border: 0;
+        padding: 0;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link.active .link-name{
+        border: 0;
+        color: #B88306;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link .icon{
+        display: none;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link{
+        padding: 10px;
+        margin-bottom: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .settings_section .tab-pane .content .title{
+        font-size: 25px;
+    }
+    .settings_section .tab-pane .btn-wrapper a{
+        font-size: 13px;
+        padding-right: 0;
+    }
+    .settings_section .tab-pane .btn-wrapper{
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+    .account_section .form-login, .account_section .form-register{
+        padding: 0;
+    }
+    .account_section .content-reg{
+        padding: 30px 0;
+    }
+    .account_section .content-forgot{
+        padding: 30px 15px;
+    }
+    .account_section .content-forgot a{
+        padding-left: 0;
+    } 
+    .account_section .content-forgot h2{
+        padding-left: 0;
+        text-align: center;
+    }
+    .course-pro .single-box{
+        width: 150px;
+        height: 199px;
+    }
+    .course-pro .course-box{
+        width: 150px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .course-pro .col-6:last-child, .course-pro .col-6:nth-last-child(4){
+        display: none;
+    }
+    .course-pro .single-box .content .desc-course{
+        padding-top: 18px;
+    }
+    .course-pro .single-box .content .course-img img{
+        width: 30px;
+        height: 30px;
+    }
+    .course-pro .single-box .content .desc-course .name{
+        font-size: 10px;
+    }
+    .course-pro .single-box .content .desc-course .job-title{
+        font-size: 8px;
+    }
+    .checkout_section .rigth-side{
+        margin-top: 100px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 484px) and (max-width: 575.98px){
+    .page-header .navbar .navigation{
+        position: fixed;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: -20px;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        height: 80vh;
+        background-color: #161615;
+        transition: .5s;
+    }
+    .navbar .navigation.active{
+        left: 20px;
+    }
+    .navbar .navigation .link-item .link{
+        color: #fff;
+        font-size: 18px;
+        display: inline-block;
+        width: 100%;
+        padding: 8px 15px;
+    }
+    .page-header .navbar .sec-user{
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -20px;
+        top: 620px;
+        left: -100%;
+        width: 100%;
+        padding: 0 150px;
+        background-color: #161615;
+        transition: .5s;
+    }
+    .page-header .sec-user.active{
+        left: 20px;
+    }
+    .banner-sec .content .title{
+        font-size: 1.8em;
+    }
+    .navbar .btn.menu{
+        display: inline-block;
+    }
+    .banner-sec .content{
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .banner-sec .content:before{
+        left: -10px;
+        width: 350px;
+        height: 350px;
+    }
+    .page-header .navbar{
+        padding: 20px;
+    }
+    .page-header .navbar.sticky{
+        padding: 20px;
+    }
+    .page-header .head-line{
+        background-color: #fff;
+    }
+    .page-header .icon-cart a{
+        color: #fff;
+    }
+    .connect-sec .single-connect{
+        width: 450px;
+        height: 240px;
+        text-align: center;
+    }
+    .connect-sec .single-connect .sec-title .title{
+        font-size: 1.8em;
+    }
+    .connect-sec .single-connect .sec-title .sub-title{
+        font-size: 1.1em;
+    }
+    .connect-sec .sec-message{
+        margin-top: 30px;
+        position: relative;
+    }
+    .connect-sec .single-connect .sec-message .con-btn{
+        right: 67px;
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+    .connect-sec .sec-message .input-msg{
+        height: 40px;
+        font-size: 13px;
+    }
+    .about-sec{
+        padding: 130px 0 85px 0;
+    }
+    .about-sec .about-img{
+        text-align: center;
+    }
+    .about-sec .about-img img{
+        width: 300px;
+        height: 400px;
+        margin-bottom: 40px;
+    }
+    .about-sec .content{
+        padding-left: 1px;
+    }
+    .about-sec .content:before{
+        top: -10px;
+        right: 20px;
+        width: 250px;
+        height: 370px;
+    }
+    .about-sec .sub-title, 
+    .aboutCur-sec  .sub-title, 
+    .success-sec .sub-title, 
+    .video-sec .sub-title, 
+    .person-sec .sub-title{
+        font-size: 30px;
+    }
+    .about-sec .title, 
+    .aboutCur-sec .title, 
+    .success-sec .title, 
+    .video-sec .title, 
+    .person-sec .title{
+        font-size: 20px;
+    }
+    .about-sec .content .para, .aboutCur-sec .content .para{
+        font-size: 13px;
+    }
+    .aboutCur-sec .content:before{
+        border-left: 8px solid #B88306;
+        border-bottom: 8px solid #B88306;
+        height: 170px;
+    }
+    .success-sec{
+        padding: 130px 0 85px 0;
+    }
+    .success-sec .content{
+        padding: 0 10px;
+    }
+    .success-sec .para{
+        font-size: 15px;
+        width: 60%;
+    }
+    .success-sec .leftsec-btn, .success-sec .rightsec-btn{
+        left: 10px;
+    }
+    .video-sec{
+        padding: 130px 0 85px 0;
+    }
+    .video-sec .content:before{
+        top: -30px;
+        left: -5px;
+        width: 150px;
+        height: 300px;
+    }
+    .video-sec .video{
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+    .video-sec .video video{
+        width: 75%;
+        height: 65vh;
+    }
+    .video-sec .content{
+        padding-left: 25px;
+    }
+    .video-sec .container:before{
+        top: 150px;
+        right: 10px;
+        width: 150px;
+        height: 210px;
+    }
+    .video-sec .carousel-indicators{
+        margin-bottom: -50px;
+        margin-left: 0;
+        display: flex;
+        justify-content: left;
+    }
+    .video-sec .carousel-indicators li{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #B88306;
+    }
+    .aboutIns-sec{
+        padding: 130px 0;
+    }
+    .aboutIns-sec .sub-title{
+        font-size: 35px;
+    }
+    .aboutIns-sec .title{
+        font-size: 18px;
+    }
+    .aboutIns-sec .ins-boxes .name{
+        font-size: 30px; 
+    }
+    .aboutIns-sec .ins-boxes .job-title{
+        font-size: 20px;  
+    }
+    .aboutIns-sec .ins-boxes .job-desc{
+        font-size: 17px;
+    }
+    .aboutIns-sec .container:before{
+        left: 10px;
+        width: 130px;
+        height: 130px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img img{
+        width: 100px;
+        height: 200px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img:before{
+        right: 40px;
+        width: 100px;
+        height: 200px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img::after{
+        top: 80px;
+        right: 70px;
+        width: 100px;
+        height: 200px;
+    }
+    .contact-sec .sub-title{
+        font-size: 35px;
+    }
+    .contact-sec .title{
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fff;
+        opacity: 0.5;    
+        text-align: center;
+    }
+    .contact-sec .con-boxes{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-sec .contact-us{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3px auto;
+    }
+    .contact-sec .contact-form .inputf{
+        padding: 10px;
+    }
+    .contact-sec .input-wrapper .icon-fill{
+        top: 13px;
+        right: 20px;
+        font-size: 20px;
+    }
+    .contact-sec .contact-form .inputarea{
+        width: 280px;
+        padding: 10px;
+    }
+    .contact-sec .textarea-wrapper .icon-fill{
+        top: 15px;
+        right: 13px;
+        font-size: 23px;
+    }
+    .contact-sec .container:before{
+        top: -30px;
+        left: 10px;
+    }
+    .contact-sec .contact-form:before{
+        bottom: -30px;
+        right: 10px;
+    }
+    .person-sec .sec-line{
+        width: 99%;
+    }
+    .page-footer{
+        padding: 150px 10px 10px 10px;
+    }
+    .page-footer .single-clm .links-list{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }    
+    .page-footer .single-clm .links-list li{
+        order: 2;
+    }
+    .page-footer .logo{
+        margin: -90px 0 30px 0;
+        order: 1;
+    }
+    .page-footer .single-copy{
+        justify-content: center;
+        width: 100%;
+    }
+    .single-copy .clm-links .social-links .link{
+        margin-right: 3px;
+    }
+    .page-header .sidebar{
+        width: 100%;
+    }
+    .search-sec{
+        padding: 100px 5px 10px 5px;
+    }
+    .search-sec .sec-message .input-msg{
+        width: 80%;
+    }
+    .search-sec .single-saerch .sec-message .icon-search{
+        right: 70px;
+    }
+    .course-det .content{
+        max-width: 430px;
+        padding: 30px;
+        margin-left: 30px;
+    }
+    .course-det .content:before{
+        border-top: 15px solid #B88306;
+        border-left: 15px solid #B88306;
+        border-right: 15px solid #B88306;
+        left: -10px;
+        height: 475px;
+    }
+    .course-det .content .title{
+        font-size: 2.5em;
+    }
+    .course-det .content .para{
+        font-size: 1em;
+    }
+    .course-axes .file-down .file-info img{
+        padding-right: 1px;
+    }
+    .course-axes .file-down .file-info a{
+        font-size: 14px;
+    }
+    .course-axes .file-down .btn-down .b-down{
+        font-size: 12px;
+    }
+    .course-axes .less-content .less-title{
+        font-size: 20px;
+    }
+    .add-task{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .input-task{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .input-add{
+        padding: 10px 70px;
+        height: 50px;
+    }
+    .blog-sec{
+        height: 5000px;
+    }
+    .blogDetails-sec{
+        height: 2650px;
+    }
+    .blogDetails-sec .img-head{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails:before{
+        left: 0;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails{
+        padding-left: 30px;
+    }
+    .blogDetails-sec .single-box p{
+        margin-left: 0;
+    }
+    .blogDetails-sec .single-box .txt-user{
+        margin-left: 0;
+    }
+    .blogDetails-sec .txt-parg{
+        font-size: 13px;
+    }
+    .blogDetails-sec .parg-sec .sub-title h2{
+        font-size: 23px;
+    }
+    .blogDetails-sec .parg-sec ul li{
+        font-size: 13px;
+    }
+    .blogDetails-sec .share-sec .social-links{
+        width: 50%;
+    }
+    .blogDetails-sec .share-sec h3{
+        font-size: 30px;
+    }
+    .blogDetails-sec .share-sec .social-links .link{
+        font-size: 30px;
+    }
+    .checkput_section .left-side{
+        padding-bottom: 100px;
+    }
+    .settings_section{
+        height: 1300px;
+    }
+    .settings_section .content-pro{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .settings_section .tab-content{
+        width: 100%;
+        height: 680px;
+    }
+    .settings_section .nav-tabs{
+        width: 100%;
+        height: 10vh;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item{
+        width: 110px;
+        display: flex;
+        align-items: center;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link .link-name{
+        border: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 18px;
+    }    
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link.active .link-name{
+        border: 0;
+        color: #B88306;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link .icon{
+        display: none;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link{
+        padding: 10px;
+        margin-bottom: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .account_section .form-login, .account_section .form-register{
+        padding: 0;
+    }
+    .account_section .content-reg, .account_section .content-forgot{
+        padding: 30px 0;
+    }
+    .account_section .content-forgot{
+        padding: 30px 15px;
+    }
+    .account_section .content-forgot a{
+        padding-left: 0;
+    } 
+    .account_section .content-forgot h2{
+        padding-left: 0;
+        text-align: center;
+    }
+    .checkout_section .rigth-side{
+        margin-top: 100px;
+    }
+}
+
+/* Small devices (landscape phones, 767px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .page-header .navbar .navigation{
+        position: fixed;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: -20px;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        height: 80vh;
+        background-color: #161615;
+        transition: .5s;
+    }
+    .navbar .navigation.active{
+        left: 20px;
+    }
+    .navbar .navigation .link-item .link{
+        color: #fff;
+        font-size: 18px;
+        display: inline-block;
+        width: 100%;
+        padding: 8px 15px;
+    }
+    .page-header .navbar .sec-user{
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -20px;
+        top: 620px;
+        left: -100%;
+        width: 100%;
+        padding: 0 150px;
+        background-color: #161615;
+        transition: .5s;
+    }
+    .page-header .sec-user.active{
+        left: 20px;
+    }
+    .banner-sec .content .title{
+        font-size: 2.5em;
+    }
+    .navbar .btn.menu{
+        display: inline-block;
+    }
+    .banner-sec .content{
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .banner-sec .content:before{
+        left: -10px;
+        width: 350px;
+        height: 350px;
+    }
+    .page-header .navbar{
+        padding: 20px;
+    }
+    .page-header .navbar.sticky{
+        padding: 20px;
+    }
+    .page-header .head-line{
+        background-color: #B88306;
+    }
+    .page-header .icon-cart a{
+        color: #B88306;
+    }
+    .connect-sec .single-connect{
+        width: 550px;
+        height: 240px;
+        text-align: center;
+    }
+    .connect-sec .single-connect .sec-title .title{
+        font-size: 2.2em;
+    }
+    .connect-sec .single-connect .sec-title .sub-title{
+        font-size: 1.1em;
+    }
+    .connect-sec .sec-message{
+        margin-top: 30px;
+        position: relative;
+    }
+    .connect-sec .single-connect .sec-message .con-btn{
+        right: 82px;
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+    .connect-sec .sec-message .input-msg{
+        height: 50px;
+        font-size: 16px;
+    }
+    .about-sec{
+        padding: 130px 0 85px 0;
+    }
+    .about-sec .about-img{
+        text-align: center;
+    }
+    .about-sec .about-img img{
+        width: 400px;
+        height: 400px;
+        margin-bottom: 40px;
+    }
+    .about-sec .content{
+        padding-left: 1px;
+    }
+    .about-sec .content:before{
+        top: -10px;
+        right: 20px;
+        width: 250px;
+        height: 370px;
+    }
+    .about-sec .sub-title, 
+    .aboutCur-sec  .sub-title, 
+    .success-sec .sub-title, 
+    .video-sec .sub-title, 
+    .person-sec .sub-title{
+        font-size: 35px;
+    }
+    .about-sec .title, 
+    .aboutCur-sec .title, 
+    .success-sec .title, 
+    .video-sec .title, 
+    .person-sec .title{
+        font-size: 23px;
+    }
+    .about-sec .content .para, .aboutCur-sec .content .para{
+        font-size: 15px;
+    }
+    .aboutCur-sec .content:before{
+        border-left: 8px solid #B88306;
+        border-bottom: 8px solid #B88306;
+        height: 190px;
+    }
+    .success-sec{
+        padding: 130px 0 85px 0;
+    }
+    .success-sec .content{
+        padding: 0 10px;
+    }
+    .success-sec .para{
+        font-size: 17px;
+        width: 60%;
+    }
+    .success-sec .leftsec-btn, .success-sec .rightsec-btn{
+        left: 10px;
+    }
+    .video-sec{
+        padding: 130px 0 85px 0;
+    }
+    .video-sec .content:before{
+        top: -30px;
+        left: -5px;
+        width: 150px;
+        height: 300px;
+    }
+    .video-sec .video{
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+    .video-sec .video video{
+        width: 75%;
+        height: 65vh;
+    }
+    .video-sec .content{
+        padding-left: 25px;
+    }
+    .video-sec .container:before{
+        top: 150px;
+        right: 10px;
+        width: 150px;
+        height: 210px;
+    }
+    .video-sec .carousel-indicators{
+        margin-bottom: -50px;
+        margin-left: 0;
+        display: flex;
+        justify-content: left;
+    }
+    .video-sec .carousel-indicators li{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #B88306;
+    }
+    .aboutIns-sec{
+        padding: 130px 0;
+    }
+    .aboutIns-sec .sub-title{
+        font-size: 35px;
+    }
+    .aboutIns-sec .title{
+        font-size: 18px;
+    }
+    .aboutIns-sec .ins-boxes .name{
+        font-size: 30px; 
+    }
+    .aboutIns-sec .ins-boxes .job-title{
+        font-size: 20px;  
+    }
+    .aboutIns-sec .ins-boxes .job-desc{
+        font-size: 17px;
+    }
+    .aboutIns-sec .container:before{
+        left: 10px;
+        width: 130px;
+        height: 130px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img img{
+        width: 100px;
+        height: 200px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img:before{
+        right: 40px;
+        width: 100px;
+        height: 200px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img::after{
+        top: 80px;
+        right: 70px;
+        width: 100px;
+        height: 200px;
+    }
+    .contact-sec .sub-title{
+        font-size: 35px;
+    }
+    .contact-sec .title{
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fff;
+        opacity: 0.5;    
+        text-align: center;
+    }
+    .contact-sec .con-boxes{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-sec .contact-us{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3px auto;
+    }
+    .contact-sec .contact-form .inputf{
+        padding: 10px;
+    }
+    .contact-sec .input-wrapper .icon-fill{
+        top: 13px;
+        right: 20px;
+        font-size: 20px;
+    }
+    .contact-sec .contact-form .inputarea{
+        width: 313px;
+        padding: 10px;
+    }
+    .contact-sec .textarea-wrapper .icon-fill{
+        top: 15px;
+        right: 20px;
+        font-size: 23px;
+    }
+    .contact-sec .container:before{
+        top: -30px;
+        left: 10px;
+    }
+    .contact-sec .contact-form:before{
+        bottom: -30px;
+        right: 10px;
+    }
+    .person-sec .sec-line{
+        width: 99%;
+    }
+    .page-footer{
+        padding: 150px 10px 10px 10px;
+    }
+    .page-footer .single-clm .links-list{
+        display: flex;
+        justify-content: left;
+        flex-flow: column;
+    }
+    .page-footer .single-clm .links-list li{
+        order: 2;
+    }
+    .page-footer .logo{
+        margin: -90px 0 30px 0;
+        order: 1;
+    }
+    .page-footer .single-copy{
+        justify-content: center;
+        width: 100%;
+    }
+    .single-copy .clm-links .social-links .link{
+        margin-right: 3px;
+    }
+    .page-header .sidebar{
+        right: -750px;
+        width: 100%;
+    }
+    .search-sec{
+        padding: 100px 5px 10px 5px;
+    }
+    .search-sec .sec-message .input-msg{
+        width: 80%;
+    }
+    .search-sec .single-saerch .sec-message .icon-search{
+        right: 70px;
+    }
+    .course-det .content{
+        max-width: 530px;
+        padding: 40px;
+        margin-left: 30px;
+    }
+    .course-det .content:before{
+        left: -5px;
+        width: 370px;
+        height: 475px;
+    }
+    .course-det .content .title{
+        font-size: 2.5em;
+    }
+    .course-det .content .para{
+        font-size: 1em;
+    }
+    .course-axes .file-down .file-info img{
+        padding-right: 1px;
+    }
+    .course-axes .file-down .file-info a{
+        font-size: 14px;
+    }
+    .course-axes .file-down .btn-down .b-down{
+        font-size: 12px;
+    }
+    .course-axes .less-content .less-title{
+        font-size: 20px;
+    }
+    .add-task{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .input-task{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .input-add{
+        padding: 10px 70px;
+        height: 50px;
+    }
+    .blogDetails-sec{
+        height: 2650px;
+    }
+    .blogDetails-sec .img-head{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails:before{
+        left: 0;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails{
+        padding-left: 30px;
+    }
+    .blogDetails-sec .single-box p{
+        margin-left: 0;
+    }
+    .blogDetails-sec .single-box .txt-user{
+        margin-left: 0;
+    }
+    .blogDetails-sec .txt-parg{
+        font-size: 13px;
+    }
+    .blogDetails-sec .parg-sec .sub-title h2{
+        font-size: 23px;
+    }
+    .blogDetails-sec .parg-sec ul li{
+        font-size: 13px;
+    }
+    .blogDetails-sec .share-sec .social-links{
+        width: 50%;
+    }
+    .blogDetails-sec .share-sec h3{
+        font-size: 30px;
+    }
+    .blogDetails-sec .share-sec .social-links .link{
+        font-size: 30px;
+    }
+    .checkput_section .left-side{
+        padding-bottom: 100px;
+    }    
+    .settings_section{
+        height: 1000px;
+    }
+    .settings_section .content-pro{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .settings_section .tab-content{
+        width: 100%;
+        height: 680px;
+    }
+    .settings_section .nav-tabs{
+        width: 100%;
+        height: 10vh;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item{
+        width: 110px;
+        display: flex;
+        align-items: center;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link.active .link-name{
+        border: 0;
+        color: #B88306;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link .link-name{
+        border: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 18px;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link{
+        padding: 10px;
+        margin-bottom: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link .icon{
+        display: none;
+    }
+    .account_section .content-reg, .account_section .content-forgot{
+        padding: 30px 0;
+    }
+}
+
+/* Medium devices (tablets, 991px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .page-header .navbar .navigation{
+        position: fixed;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: -20px;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        height: 80vh;
+        background-color: #161615;
+        transition: .5s;
+    }
+    .navbar .navigation.active{
+        left: 20px;
+    }
+    .navbar .navigation .link-item .link{
+        color: #fff;
+        font-size: 18px;
+        display: inline-block;
+        width: 100%;
+        padding: 8px 15px;
+    }
+    .page-header .navbar .sec-user{
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -20px;
+        top: 620px;
+        left: -100%;
+        width: 100%;
+        padding: 0 150px;
+        background-color: #161615;
+        transition: .5s;
+    }
+    .page-header .sec-user.active{
+        left: 20px;
+    }
+    .banner-sec .content .title{
+        font-size: 3em;
+    }
+    .navbar .btn.menu{
+        display: inline-block;
+    }
+    .banner-sec .content{
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .banner-sec .content:before{
+        left: -10px;
+        width: 350px;
+        height: 350px;
+    }
+    .page-header .navbar{
+        padding: 20px;
+    }
+    .page-header .navbar.sticky{
+        padding: 20px;
+    }
+    .page-header .head-line{
+        background-color: #fff;
+    }
+    .page-header .icon-cart a{
+        color: #fff;
+    }
+    .connect-sec .single-connect{
+        width: 550px;
+        height: 240px;
+        text-align: center;
+    }
+    .connect-sec .single-connect .sec-title .title{
+        font-size: 2.2em;
+    }
+    .connect-sec .single-connect .sec-title .sub-title{
+        font-size: 1.1em;
+    }
+    .connect-sec .sec-message{
+        margin-top: 30px;
+        position: relative;
+    }
+    .connect-sec .single-connect .sec-message .con-btn{
+        right: 82px;
+        padding: 13px 20px;
+        font-size: 17px;
+    }
+    .connect-sec .sec-message .input-msg{
+        height: 55px;
+        font-size: 16px;
+    }
+    .about-sec{
+        padding: 130px 0 85px 0;
+    }
+    .about-sec .about-img{
+        text-align: center;
+    }
+    .about-sec .about-img img{
+        width: 550px;
+        height: 400px;
+        margin-bottom: 40px;
+    }
+    .about-sec .content{
+        padding-left: 1px;
+    }
+    .about-sec .content:before{
+        top: -10px;
+        right: 20px;
+        width: 250px;
+        height: 370px;
+    }
+    .about-sec .sub-title, 
+    .aboutCur-sec  .sub-title, 
+    .success-sec .sub-title, 
+    .video-sec .sub-title, 
+    .person-sec .sub-title{
+        font-size: 40px;
+    }
+    .about-sec .title, 
+    .aboutCur-sec .title, 
+    .success-sec .title, 
+    .video-sec .title, 
+    .person-sec .title{
+        font-size: 26px;
+    }
+    .about-sec .content .para, .aboutCur-sec .content .para{
+        font-size: 18px;
+    }
+    .aboutCur-sec .content:before{
+        border-left: 8px solid #B88306;
+        border-bottom: 8px solid #B88306;
+        height: 200px;
+    }
+    .success-sec{
+        padding: 130px 0 85px 0;
+    }
+    .success-sec .content{
+        padding: 0 10px;
+    }
+    .success-sec .para{
+        font-size: 17px;
+        width: 60%;
+    }
+    .success-sec .leftsec-btn, .success-sec .rightsec-btn{
+        left: 10px;
+    }
+    .video-sec{
+        padding: 130px 0 85px 0;
+    }
+    .video-sec .content:before{
+        top: -30px;
+        left: -5px;
+        width: 150px;
+        height: 300px;
+    }
+    .video-sec .video{
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+    .video-sec .video video{
+        width: 75%;
+        height: 65vh;
+    }
+    .video-sec .content{
+        padding-left: 25px;
+    }
+    .video-sec .container:before{
+        top: 150px;
+        right: 10px;
+        width: 150px;
+        height: 210px;
+    }
+    .video-sec .carousel-indicators{
+        margin-bottom: -50px;
+        margin-left: 0;
+        display: flex;
+        justify-content: left;
+    }
+    .video-sec .carousel-indicators li{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #B88306;
+    }
+    .aboutIns-sec{
+        padding: 130px 0;
+    }
+    .aboutIns-sec .sub-title{
+        font-size: 35px;
+    }
+    .aboutIns-sec .title{
+        font-size: 18px;
+    }
+    .aboutIns-sec .ins-boxes .name{
+        font-size: 30px; 
+    }
+    .aboutIns-sec .ins-boxes .job-title{
+        font-size: 20px;  
+    }
+    .aboutIns-sec .ins-boxes .job-desc{
+        font-size: 17px;
+    }
+    .aboutIns-sec .container:before{
+        left: 10px;
+        width: 150px;
+        height: 130px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img img{
+        width: 150px;
+        height: 200px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img:before{
+        right: 80px;
+        width: 150px;
+        height: 200px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img::after{
+        top: 80px;
+        right: 100px;
+        width: 150px;
+        height: 200px;
+    }
+    .contact-sec .sub-title{
+        font-size: 35px;
+    }
+    .contact-sec .title{
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fff;
+        opacity: 0.5;    
+        text-align: center;
+    }
+    .contact-sec .con-boxes{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .contact-sec .contact-us{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3px auto;
+    }
+    .contact-sec .contact-form .inputf{
+        padding: 10px;
+    }
+    .contact-sec .input-wrapper .icon-fill{
+        top: 13px;
+        right: 20px;
+        font-size: 20px;
+    }
+    .contact-sec .contact-form .inputarea{
+        width: 420px;
+        padding: 10px;
+    }
+    .contact-sec .textarea-wrapper .icon-fill{
+        top: 15px;
+        right: 20px;
+        font-size: 23px;
+    }
+    .contact-sec .container:before{
+        top: -60px;
+        left: 10px;
+    }
+    .contact-sec .contact-form:before{
+        bottom: -30px;
+        right: 10px;
+    }
+    .person-sec .sec-line{
+        width: 99%;
+    }
+    .page-footer{
+        padding: 150px 0 10px 0;
+    }
+    .page-footer .single-clm .links-list{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row;
+    }
+    .page-footer .logo{
+        margin: -90px 0 0 0;
+    }
+    .page-footer .single-copy{
+        justify-content: center;
+        width: 100%;
+    }
+    .single-copy .clm-links .social-links .link{
+        margin-right: 3px;
+    }
+    .page-header .sidebar{
+        right: -750px;
+        width: 60%;
+    }
+    .search-sec{
+        padding: 100px 5px 10px 5px;
+    }
+    .search-sec .sec-message .input-msg{
+        width: 80%;
+    }
+    .search-sec .single-saerch .sec-message .icon-search{
+        right: 70px;
+    }
+    .course-det .content{
+        max-width: 530px;
+        padding: 40px;
+        margin-left: 30px;
+    }
+    .course-det .content:before{
+        left: -5px;
+        width: 370px;
+        height: 505px;
+    }
+    .course-det .content .title{
+        font-size: 2.7em;
+    }
+    .course-det .content .para{
+        font-size: 1.3em;
+    }
+    .course-axes .file-down .file-info img{
+        padding-right: 1px;
+    }
+    .course-axes .file-down .file-info a{
+        font-size: 14px;
+    }
+    .course-axes .file-down .btn-down .b-down{
+        font-size: 12px;
+    }
+    .course-axes .less-content .less-title{
+        font-size: 20px;
+    }
+    .add-task{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .input-task{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .input-add{
+        padding: 10px 70px;
+        height: 50px;
+    }
+    .blogDetails-sec{
+        height: 2000px;
+    }
+    .blogDetails-sec .single-box .txt-user{
+        width: 80%;
+        padding: 0;
+    }
+    .blogDetails-sec .single-box .txt-user .info-user{
+        padding-top: 0;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails h2{
+        margin-top: 10px;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails:before{
+        padding: 100px 0;
+        top: 40px;
+        height: 10px;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails{
+        padding: 80px 0;
+    }
+    .checkput_section .left-side{
+        padding-bottom: 100px;
+    }
+    .settings_section{
+        height: 1300px;
+    }
+    .settings_section .content-pro{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .settings_section .tab-content{
+        width: 100%;
+        height: 680px;
+    }
+    .settings_section .nav-tabs{
+        width: 100%;
+        height: 10vh;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item{
+        width: 160px;
+        display: flex;
+        align-items: center;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link.active .link-name{
+        border: 0;
+        color: #B88306;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link .link-name{
+        border: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 22px;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link .icon{
+        display: none;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link{
+        padding: 10px;
+        margin-bottom: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Large devices (desktops, 1199px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .navbar .navigation .link-item{
+        margin-left: 0;
+    }
+    .navbar .navigation{
+        width: 65%;
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .page-header .navbar{
+        flex-flow: row nowrap;
+    }
+    .navbar .logo{
+        display: flex;
+    }
+    .navbar .logo img{
+        padding-right: 5px;
+    }
+    .about-sec{
+        padding: 130px 0 85px 0;
+    }
+    .about-sec .about-img{
+        text-align: center;
+    }
+    .about-sec .about-img img{
+        width: 450px;
+        height: 400px;
+        margin-bottom: 40px;
+    }
+    .about-sec .content{
+        padding-left: 1px;
+    }
+    .about-sec .content:before{
+        top: -10px;
+        right: 20px;
+        width: 250px;
+        height: 450px;
+    }
+    .about-sec .sub-title, 
+    .aboutCur-sec  .sub-title, 
+    .success-sec .sub-title, 
+    .video-sec .sub-title, 
+    .person-sec .sub-title{
+        font-size: 40px;
+    }
+    .about-sec .title, 
+    .aboutCur-sec .title, 
+    .success-sec .title, 
+    .video-sec .title, 
+    .person-sec .title{
+        font-size: 26px;
+    }
+    .about-sec .content .para, .aboutCur-sec .content .para{
+        font-size: 18px;
+    }
+    .aboutCur-sec .content:before{
+        border-left: 8px solid #B88306;
+        border-bottom: 8px solid #B88306;
+        height: 200px;
+    }
+    .aboutIns-sec{
+        padding: 130px 0;
+    }
+    .aboutIns-sec .sub-title{
+        font-size: 38px;
+    }
+    .aboutIns-sec .title{
+        font-size: 20px;
+    }
+    .aboutIns-sec .ins-boxes .name{
+        font-size: 33px; 
+    }
+    .aboutIns-sec .ins-boxes .job-title{
+        font-size: 22px;  
+    }
+    .aboutIns-sec .ins-boxes .job-desc{
+        font-size: 18px;
+    }
+    .aboutIns-sec .container:before{
+        left: 10px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img img{
+        width: 250px;
+        height: 350px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img:before{
+        right: 110px;
+        width: 250px;
+        height: 350px;
+    }
+    .aboutIns-sec .ins-boxes .sec-img::after{
+        top: 80px;
+        right: 30px;
+        width: 250px;
+        height: 350px;
+    }
+    .contact-sec .contact-form .inputarea{
+        width: 566px;
+    }
+    .person-sec .sec-line{
+        width: 99%;
+    }
+    .page-footer{
+        padding: 150px 0 10px 0;
+    }
+    .page-footer .single-clm .links-list{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row;
+    }
+    .page-footer .logo{
+        margin: -90px 0 0 0;
+    }
+    .page-footer .single-copy{
+        justify-content: center;
+        width: 100%;
+    }
+    .single-copy .clm-links .social-links .link{
+        margin-right: 3px;
+    }
+    .page-header .sidebar{
+        right: -750px;
+        width: 450px;
+    }
+    .course-det .content .title{
+        font-size: 2.7em;
+    }
+    .course-det .content .para{
+        font-size: 1.3em;
+    }
+    .course-axes .file-down .file-info img{
+        padding-right: 1px;
+    }
+    .course-axes .file-down .file-info a{
+        font-size: 14px;
+    }
+    .course-axes .file-down .btn-down .b-down{
+        font-size: 12px;
+    }
+    .course-axes .less-content .less-title{
+        font-size: 20px;
+    }
+    .course-det .content:before{
+        height: 469px;
+    }
+    .blogDetails-sec{
+        height: 1800px;
+    }
+    .blogDetails-sec .single-box .txt-user{
+        width: 80%;
+        padding: 0;
+    }
+    .blogDetails-sec .single-box .txt-user .info-user{
+        padding-top: 0;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails h2{
+        margin-top: 10px;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails:before{
+        padding: 100px 0;
+        top: 40px;
+        height: 10px;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails{
+        padding: 80px 0;
+    }
+    .settings_section .content-pro{
+        display: flex;
+        justify-content: center;
+    }
+    .settings_section .tab-content{
+        width: 65%;
+        height: 680px;
+        margin: 0 0 0 10px;
+    }
+    .settings_section .nav-tabs{
+        width: 18%;
+    }
+    .settings_section .content-pro .nav-tabs .nav-item .nav-link{
+        font-size: 20px;
+    }
+}
+
+/* Extra large devices (large desktops, 1323px and up) */
+@media (min-width: 1200px) and (max-width: 1323px){
+    .navbar .navigation .link-item{
+        margin-left: 0;
+    }
+    .navbar .navigation{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .page-header .navbar{
+        flex-flow: row nowrap;
+    }
+    .about-sec .content:before{
+        top: -10px;
+        right: 20px;
+        width: 250px;
+        height: 600px;
+    }
+    .success-sec{
+        padding: 130px 0 85px 0;
+    }
+    .success-sec .content{
+        padding: 0 10px;
+    }
+    .success-sec .para{
+        font-size: 17px;
+        width: 60%;
+    }
+    .success-sec .leftsec-btn, .success-sec .rightsec-btn{
+        left: 10px;
+    }
+    .page-header .sidebar{
+        right: -750px;
+        width: 500px;
+    }
+    .course-det .content:before{
+        height: 487px;
+    }
+    .blogDetails-sec .single-box .txt-user{
+        width: 80%;
+        padding: 0;
+    }
+    .blogDetails-sec .single-box .txt-user .info-user{
+        padding-top: 0;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails h2{
+        margin-top: 10px;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails:before{
+        padding: 100px 0;
+        top: 40px;
+        height: 10px;
+    }
+    .blogDetails-sec .single-box .txt-blogDetails{
+        padding: 80px 0;
+    }
+}
